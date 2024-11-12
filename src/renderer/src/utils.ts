@@ -59,6 +59,5 @@ export function getWeather(time: number, forecast: Array<Weather>) {
 export function displayWeather(time: number, forecast: Array<Weather>) {
   const calendarTime = translateCalendarTime(time)
   const weather = getWeather(time, forecast)
-  console.log([calendarTime[0], weather])
   return [calendarTime[0], weather]
 }

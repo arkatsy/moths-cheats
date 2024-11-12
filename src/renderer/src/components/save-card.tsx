@@ -6,6 +6,8 @@ import {
   displayPlaytime,
   displayWeather
 } from '@renderer/utils'
+import { memo } from 'react'
+import { SortedLoadingSaves } from 'src/shared'
 
 import iconBlizzard from '@renderer/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_blizzard.png'
 import iconLeaves from '@renderer/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_leaves.png'
@@ -44,14 +46,13 @@ const weatherIcons = [
   }
 ]
 
-export function SaveCard({ saveId }: { saveId: string }) {
-  3
-  const save = window.api.getLoadingSaveInfo(saveId)
+type Save = SortedLoadingSaves[number]
 
+function SaveCard({ save }: { save: Save }) {
   const data = {
-    Gold: Intl.NumberFormat().format(save.stats.gold),
-    Essence: Intl.NumberFormat().format(save.stats.essence),
-    Renown: Intl.NumberFormat().format(save.stats.renown)
+    Gold: Intl.NumberFormat().format(save.header.stats.gold),
+    Essence: Intl.NumberFormat().format(save.header.stats.essence),
+    Renown: Intl.NumberFormat().format(save.header.stats.renown)
   }
 
   return (
@@ -59,31 +60,30 @@ export function SaveCard({ saveId }: { saveId: string }) {
       as="button"
       display="inline"
       bg="gray.900"
-      w={{ base: '100%', md: '660px' }}
-      maxW="660px"
+      w="full"
       mx="auto"
       cursor="pointer"
     >
       <Card.Header display="flex" flexDir="row" justifyContent="space-between" pos="relative">
         <Flex flexDir="column">
           <Text textStyle="xl">
-            {save.name} | {displayCalendarTime(save.calendar_time)} -&nbsp;
-            {displayClockTime(save.clock_time)} &nbsp;
-            <Box as="span">{save.isAutosave && '(autosave)'}</Box>
+            {save.header.name} | {displayCalendarTime(save.header.calendar_time)} -&nbsp;
+            {displayClockTime(save.header.clock_time)} &nbsp;
+            <Box as="span">{save.autosave && '(autosave)'}</Box>
           </Text>
           <Image
             h="25px"
             w="25px"
-            src={weatherIcons[displayWeather(save.calendar_time, save.weather.forecast)[0]][displayWeather(save.calendar_time, save.weather.forecast)[1]]}
+            src={weatherIcons[displayWeather(save.header.calendar_time, save.header.weather.forecast)[0]][displayWeather(save.header.calendar_time, save.header.weather.forecast)[1]]}
           />
         </Flex>
 
         <Box pos="relative">
           <Text textStyle="xl" textAlign="end" ml={2}>
-            {save.farm_name}
+            {save.header.farm_name}
           </Text>
           <Text pos="absolute" textStyle="xl" opacity={0.9} right="0">
-            {displayPlaytime(save.playtime)}
+            {displayPlaytime(save.header.playtime)}
           </Text>
         </Box>
       </Card.Header>
@@ -100,10 +100,12 @@ export function SaveCard({ saveId }: { saveId: string }) {
         </Flex>
         <Box pos="absolute" right={6} bottom={7}>
           <Text fontSize="sm" opacity="0.8">
-            {save.saveId}
+            {save.id}
           </Text>
         </Box>
       </Card.Body>
     </Card.Root>
   )
 }
+
+export default memo(SaveCard)
