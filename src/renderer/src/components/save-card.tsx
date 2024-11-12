@@ -6,15 +6,16 @@ import {
   translatePlaytime,
   getWeather
 } from '@renderer/utils'
+import { memo } from 'react'
+import { SortedLoadingSaves } from 'src/shared'
 
-export function SaveCard({ saveId }: { saveId: string }) {
-  3
-  const save = window.api.getLoadingSaveInfo(saveId)
+type Save = SortedLoadingSaves[number]
 
+function SaveCard({ save }: { save: Save }) {
   const data = {
-    Gold: Intl.NumberFormat().format(save.stats.gold),
-    Essence: Intl.NumberFormat().format(save.stats.essence),
-    Renown: Intl.NumberFormat().format(save.stats.renown)
+    Gold: Intl.NumberFormat().format(save.header.stats.gold),
+    Essence: Intl.NumberFormat().format(save.header.stats.essence),
+    Renown: Intl.NumberFormat().format(save.header.stats.renown)
   }
 
   return (
@@ -22,29 +23,28 @@ export function SaveCard({ saveId }: { saveId: string }) {
       as="button"
       display="inline"
       bg="gray.900"
-      w={{ base: '100%', md: '660px' }}
-      maxW="660px"
+      w="full"
       mx="auto"
       cursor="pointer"
     >
       <Card.Header display="flex" flexDir="row" justifyContent="space-between" pos="relative">
         <Flex flexDir="column">
           <Text textStyle="xl">
-            {save.name} | {translateCalendarTime(save.calendar_time)} -&nbsp;
-            {translateClockTime(save.clock_time)} &nbsp;
-            <Box as="span">{save.isAutosave && '(autosave)'}</Box>
+            {save.header.name} | {translateCalendarTime(save.header.calendar_time)} -&nbsp;
+            {translateClockTime(save.header.clock_time)} &nbsp;
+            <Box as="span">{save.autosave && '(autosave)'}</Box>
           </Text>
           <Text textStyle="sm" opacity={0.8}>
-            weather: {getWeather(save.calendar_time, save.weather.forecast)}
+            weather: {getWeather(save.header.calendar_time, save.header.weather.forecast)}
           </Text>
         </Flex>
 
         <Box pos="relative">
           <Text textStyle="xl" textAlign="end" ml={2}>
-            {save.farm_name}
+            {save.header.farm_name}
           </Text>
           <Text pos="absolute" textStyle="xl" opacity={0.9} right="0">
-            {translatePlaytime(save.playtime)}
+            {translatePlaytime(save.header.playtime)}
           </Text>
         </Box>
       </Card.Header>
@@ -61,10 +61,12 @@ export function SaveCard({ saveId }: { saveId: string }) {
         </Flex>
         <Box pos="absolute" right={6} bottom={7}>
           <Text fontSize="sm" opacity="0.8">
-            {save.saveId}
+            {save.id}
           </Text>
         </Box>
       </Card.Body>
     </Card.Root>
   )
 }
+
+export default memo(SaveCard)
