@@ -37,27 +37,29 @@ export function displayClockTime(time: number) {
 
 export function translateCalendarTime(time: number) {
   // Spring = 0, Summer = 1, Fall = 2, Winter = 3
-  // 2419200 seconds = 1 day because 28 days per month
-  const season = Math.floor(time / 2419200) // convert seconds to months
+  // 86400 * 28 = 2419200 seconds = 1 month because 28 days per month
+  // 2419200 * 4 = 9676800 seconds = 1 year
+  const year = Math.floor(time / 9676800) + 1
+  const season = Math.floor((time % 9676800) / 2419200) // convert seconds to months
   const day = Math.trunc((time % 2419200) / 86400)
-  return [season, day]
+  return [year, season, day]
 }
 
 export function displayCalendarTime(time: number) {
   const calendarTime = translateCalendarTime(time)
-  calendarTime[1] += 1 // days start at 0
+  calendarTime[2] += 1 // days start at 0
   const seasons = ['Spring', 'Summer', 'Fall', 'Winter']
-  return `${seasons[calendarTime[0]]} ${calendarTime[1]}`
+  return `Year ${calendarTime[0]} ${seasons[calendarTime[1]]} ${calendarTime[2]}`
 }
 
 export function getWeather(time: number, forecast: Array<Weather>) {
   // Weather is stored in forecast array for the entire month
   const calendarTime = translateCalendarTime(time)
-  return forecast[calendarTime[1]]
+  return forecast[calendarTime[2]]
 }
 
 export function displayWeather(time: number, forecast: Array<Weather>) {
   const calendarTime = translateCalendarTime(time)
   const weather = getWeather(time, forecast)
-  return [calendarTime[0], weather]
+  return [calendarTime[1], weather]
 }
