@@ -1,0 +1,60 @@
+name: Moth's Cheats Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version number"
+        required: true
+        default: "0.0.1"
+  push:
+    paths:
+      - "package.json"
+
+jobs:
+  release:
+    runs-on: ${{ matrix.os }}
+    permissions:
+      contents: write
+
+    strategy:
+      matrix:
+        os: [windows-latest]
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Check version change
+        run: node .github/workflows/check_version_change.js
+
+      - name: Extract version from package.json
+        id: get_version
+        shell: pwsh
+        run: echo "VERSION=$(jq -r .version package.json)" >> $env:GITHUB_ENV
+
+      - name: build
+        if: success() || (failure() && steps.check_version_change.outcome == 'success')
+        run: npm run build
+
+      - name: release
+        if: success() || (failure() && steps.check_version_change.outcome == 'success')
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: true
+          files: |
+            dist/*.exe
+          tag_name: Release v${{ env.VERSION }}
+          name: Release v${{ env.VERSION }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
