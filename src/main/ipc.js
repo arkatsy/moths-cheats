@@ -8,12 +8,15 @@ import {
   isNumber
 } from "./utils"
 
+import { translateCalendarTime } from "./utils"
+
 export const IPC = {
   UPDATE_SAVE: "update/save",
   GET_SORTED_LOADING_SAVES: "get/sorted-loading-saves",
   GET_SAVE_DATA: "get/save-data",
   SET_GOLD: "set/gold",
   SET_ESSENCE: "set/essence",
+  SET_RENOWN: "set/renown",
   SET_CALENDAR_TIME: "set/calendar-time"
 }
 
@@ -23,6 +26,7 @@ export const channels = {
   [IPC.GET_SAVE_DATA]: handleGetSaveData,
   [IPC.SET_GOLD]: handleSetGold,
   [IPC.SET_ESSENCE]: handleSetEssence,
+  [IPC.SET_RENOWN]: handleSetRenown,
   [IPC.SET_CALENDAR_TIME]: handleSetCalendarTime
 }
 
@@ -81,7 +85,11 @@ function handleGetSaveData(e, saveId) {
     farmName: headerData.farm_name,
     gold: headerData.stats.gold,
     essence: headerData.stats.essence,
-    calendarTime: headerData.calendar_time
+    renown: headerData.stats.renown,
+    calendarTime: headerData.calendar_time,
+    year: translateCalendarTime(headerData.calendar_time)[0],
+    season: translateCalendarTime(headerData.calendar_time)[1],
+    day: translateCalendarTime(headerData.calendar_time)[2]
   }
 }
 
@@ -129,6 +137,28 @@ function handleSetEssence(e, saveId, essence) {
   return true
 }
 
+function handleSetRenown(e, saveId, renown) {
+  console.log(`[handleSetRenown:${saveId}]: Updating essence to ${renown}`)
+
+  if (!isNumber(renown)) {
+    console.log(`[handleSetRenown:${saveId}]: Renown is not a number ${renown}, won't update`)
+    return false
+  }
+
+  const saveInfo = unpackedSavesPathsCache.get(saveId)
+  if (!saveInfo) {
+    console.log(`couldn't find save with id ${saveId} in cache`)
+    return false
+  }
+
+  const { jsonPaths } = saveInfo
+
+  updateJsonValue(jsonPaths.header, "stats.renown", renown)
+  updateJsonValue(jsonPaths.player, "stats.renown", renown)
+
+  return true
+}
+
 function handleSetCalendarTime(e, saveId, calendarTime) {
   console.log(`[handleSetCalendarTime:${saveId}]: Updating calendar time to ${calendarTime}`)
 
@@ -153,7 +183,6 @@ function handleSetCalendarTime(e, saveId, calendarTime) {
   updateJsonValue(jsonPaths.header, "calendar_time", calendarTime)
   updateJsonValue(jsonPaths.gamedata, "date", calendarTime)
   //TODO: IMPLEMENT DAY OF THE WEEK
-  //TODO: RENAME TO DATE
 
   return true
 }

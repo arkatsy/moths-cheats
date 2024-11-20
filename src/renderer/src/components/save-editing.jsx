@@ -1,8 +1,16 @@
-import { Box, Center, Flex, Grid, Spinner, Text } from "@chakra-ui/react"
+import { Box, Center, Flex, Grid, Spinner, Text, createListCollection } from "@chakra-ui/react"
 import { Button } from "@components/ui/button"
-import { saves, displayCalendarTime } from "@utils"
+import { saves, seasonsList, getCalendarTime } from "@utils"
 import { useEffect, useState } from "react"
 import { NumberInputRoot, NumberInputField } from "@components/ui/number-input"
+import {
+  SelectContent,
+  SelectItem,
+  SelectLabel,
+  SelectRoot,
+  SelectTrigger,
+  SelectValueText
+} from "@components/ui/select"
 
 export default function SaveEditing({ saveId, onBack }) {
   const save = saves.find((save) => save.id === saveId)
@@ -25,7 +33,9 @@ export default function SaveEditing({ saveId, onBack }) {
     setIsApplyingEdits(true)
     await window.api.setGold(saveId, edits.gold)
     await window.api.setEssence(saveId, edits.essence)
-    await window.api.setCalendarTime(saveId, edits.calendarTime)
+    await window.api.setRenown(saveId, edits.renown)
+    await window.api.setCalendarTime(saveId, getCalendarTime(edits.year, edits.season, edits.day))
+    // await window.api.setCalendarTime(saveId, edits.calendarTime)
 
     const success = await window.api.updateSave(saveId)
     setIsApplyingEdits(false)
@@ -47,6 +57,10 @@ export default function SaveEditing({ saveId, onBack }) {
 
   const setGold = (newGold) => setEdits((edits) => ({ ...edits, gold: newGold }))
   const setEssence = (newEssence) => setEdits((edits) => ({ ...edits, essence: newEssence }))
+  const setRenown = (newRenown) => setEdits((edits) => ({ ...edits, renown: newRenown }))
+  const setYear = (newYear) => setEdits((edits) => ({ ...edits, year: newYear }))
+  const setSeason = (newSeason) => setEdits((edits) => ({ ...edits, season: newSeason }))
+  const setDay = (newDay) => setEdits((edits) => ({ ...edits, day: newDay }))
   const setCalendarTime = (newCalendarTime) =>
     setEdits((edits) => ({ ...edits, calendarTime: newCalendarTime }))
 
@@ -90,7 +104,7 @@ export default function SaveEditing({ saveId, onBack }) {
             </Flex>
           </Center>
         ) : (
-          <Grid templateColumns="repeat(3, 1fr)" gap="6">
+          <Grid templateColumns="repeat(2, 1fr)" gap="3">
             <NumberInput value={edits.gold} onValueChange={setGold} label="Gold" step={10} />
             <NumberInput
               value={edits.essence}
@@ -98,38 +112,34 @@ export default function SaveEditing({ saveId, onBack }) {
               label="Essence"
               step={10}
             />
-            <CalendarInput
-              value={edits.calendarTime}
-              onValueChange={setCalendarTime}
-              label="Calendar Time"
-              step={86400}
+            <NumberInput
+              value={edits.renown}
+              onValueChange={setRenown}
+              label="Renown"
+              step={10}
             />
+              <NumberInput
+                value={edits.year}
+                onValueChange={setYear}
+                label="Year"
+                step={1}
+              />
+              <SelectInput
+                currentValue={seasonsList[edits.season]}
+                onValueChange={setSeason}
+                textLabel="Season"
+                collection={seasons}
+              />
+              <SelectInput
+                currentValue={edits.day}
+                onValueChange={setDay}
+                textLabel="Day"
+                collection={days}
+              />
           </Grid>
         )}
       </Box>
     </Box>
-  )
-}
-
-function CalendarInput({ value, onValueChange, step, min, label }) {
-  min ??= 0
-  step ??= 1
-
-  const handleValueChange = (e) => {
-    onValueChange(+e.value)
-  }
-
-  return (
-    <Flex flexDir="column" gap={2}>
-      <Flex justifyContent="space-between">
-        <Box as="label">{label}</Box>
-        <Box opacity={0.8}>{displayCalendarTime(value)}</Box>
-      </Flex>
-
-      <NumberInputRoot min={0} step={step} value={+value || 0} onValueChange={handleValueChange}>
-        <NumberInputField />
-      </NumberInputRoot>
-    </Flex>
   )
 }
 
@@ -152,3 +162,40 @@ function NumberInput({ value, onValueChange, step, min, label }) {
     </Flex>
   )
 }
+
+function SelectInput({ collection, textLabel, currentValue, onValueChange }) {
+  return (
+    <SelectRoot 
+      collection={collection} 
+      size="md" 
+      width="320px"
+      positioning={{ placement: "bottom", flip: false }}
+      onValueChange={(e) => onValueChange(e.value[0])}
+    >
+      <SelectLabel>{textLabel}</SelectLabel>
+      <SelectTrigger>
+        <SelectValueText placeholder={currentValue} />
+      </SelectTrigger>
+      <SelectContent>
+        {collection.items.map((item) => (
+          <SelectItem item={item} key={item.value}>
+            {item.label}
+          </SelectItem>
+        ))}
+      </SelectContent>
+    </SelectRoot>
+  )
+}
+
+const seasons = createListCollection({
+  items: [
+    {label: "Spring", value: 0},
+    {label: "Summer", value: 1},
+    {label: "Fall", value: 2},
+    {label: "Winter", value: 3},
+  ]
+})
+
+const days = createListCollection({
+  items: Array(28).fill().map((_,i) => ({ label: i+1, value: i+1}))
+})

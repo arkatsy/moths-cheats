@@ -43,6 +43,24 @@ export function isNumber(value) {
 }
 
 /**
+ * @desc Translates the calendar_time variable in header.json into a more accessible format
+ * @param time The calendar_time variable from header.json in seconds
+ * @returns A tuple containing the clock time where
+ * - calendarTime[0] = year
+ * - calendarTime[1] = season
+ * - calendarTime[2] = day
+ */
+export function translateCalendarTime(time) {
+  // Spring = 0, Summer = 1, Fall = 2, Winter = 3
+  // 86400 * 28 = 2419200 seconds = 1 month because 28 days per month
+  // 2419200 * 4 = 9676800 seconds = 1 year
+  const year = Math.floor(time / 9676800) + 1
+  const season = Math.floor((time % 9676800) / 2419200) // convert seconds to months
+  const day = Math.trunc((time % 2419200) / 86400) + 1 // days start at 0
+  return [year, season, day]
+}
+
+/**
  * @desc Reads and parses a JSON file from a given path synchronously
  * @param filePath The path to the JSON file
  * @returns The parsed JSON object
