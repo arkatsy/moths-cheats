@@ -27,7 +27,6 @@ import {
 import tesseraeIcon from "@assets/tessarae.webp"
 import essenceIcon from "@assets/essence.png"
 import renownIcon from "@assets/renown.png"
-import pronounsIcon from "@assets/pronouns.png"
 import editIcon from "@assets/edit.png"
 import { saves, seasonsList, getCalendarTime, PronounsList, formatPronouns } from "@utils"
 
@@ -35,7 +34,6 @@ const TesseraeIcon = () => <Image src={tesseraeIcon} w="20px" h="20px" />
 const EssenceIcon = () => <Image src={essenceIcon} w="20px" h="20px" />
 const RenownIcon = () => <Image src={renownIcon} w="20px" h="20px" />
 const EditIcon = () => <Image src={editIcon} w="20px" h="20px" />
-const PronounsIcon = () => <Image src={pronounsIcon} w="20px" h="20px" />
 
 export default function SaveEditing({ saveId, onBack }) {
   const save = saves.find((save) => save.id === saveId)
@@ -180,14 +178,14 @@ export default function SaveEditing({ saveId, onBack }) {
                     collection={pronouns}
                   />
                 </GridItem>
-                <Griditem>
+                <GridItem>
                   <NumberInput
                     value={edits.health}
                     onValueChange={setHealth}
                     label="Health"
                     step={10}
                   />
-                </Griditem>
+                </GridItem>
                 <GridItem>
                   <NumberInput
                     value={edits.stamina}
@@ -268,7 +266,6 @@ function SelectInput({ collection, textLabel, currentValue, onValueChange }) {
     <SelectRoot
       collection={collection}
       size="md"
-      positioning={{ placement: "bottom", flip: false }}
       onValueChange={(e) => onValueChange(e.value[0])}
     >
       <SelectLabel>{textLabel}</SelectLabel>
