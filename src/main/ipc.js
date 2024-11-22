@@ -5,7 +5,8 @@ import {
   parseHeaderJson,
   vaultc,
   unpackSavesToTemp,
-  isNumber
+  isNumber,
+  PronounsList
 } from "./utils"
 
 import { translateCalendarTime } from "./utils"
@@ -17,7 +18,8 @@ export const IPC = {
   SET_GOLD: "set/gold",
   SET_ESSENCE: "set/essence",
   SET_RENOWN: "set/renown",
-  SET_CALENDAR_TIME: "set/calendar-time"
+  SET_CALENDAR_TIME: "set/calendar-time",
+  SET_PRONOUNS: "set/pronouns"
 }
 
 export const channels = {
@@ -27,7 +29,8 @@ export const channels = {
   [IPC.SET_GOLD]: handleSetGold,
   [IPC.SET_ESSENCE]: handleSetEssence,
   [IPC.SET_RENOWN]: handleSetRenown,
-  [IPC.SET_CALENDAR_TIME]: handleSetCalendarTime
+  [IPC.SET_CALENDAR_TIME]: handleSetCalendarTime,
+  [IPC.SET_PRONOUNS]: handleSetPronouns
 }
 
 function handleUpdateSave(e, saveId) {
@@ -78,11 +81,12 @@ function handleGetSaveData(e, saveId) {
   }
 
   const headerData = parseHeaderJson(saveInfo.jsonPaths.header)
-  // const playerData = parseHeaderJson(saveInfo.jsonPaths.player)
+  const playerData = parseHeaderJson(saveInfo.jsonPaths.player)
 
   return {
     name: headerData.name,
     farmName: headerData.farm_name,
+    pronouns: playerData.pronoun_choice,
     gold: headerData.stats.gold,
     essence: headerData.stats.essence,
     renown: headerData.stats.renown,
@@ -163,12 +167,16 @@ function handleSetCalendarTime(e, saveId, calendarTime) {
   console.log(`[handleSetCalendarTime:${saveId}]: Updating calendar time to ${calendarTime}`)
 
   if (!isNumber(calendarTime)) {
-    console.log(`[handleSetCalendarTime:${saveId}]: Calendar time is not a number ${calendarTime}, won't update`)
+    console.log(
+      `[handleSetCalendarTime:${saveId}]: Calendar time is not a number ${calendarTime}, won't update`
+    )
     return false
   }
 
   if (calendarTime % 86400 != 0) {
-    console.log(`[handleSetCalendarTime:${saveId}]: Calendar time ${calendarTime} is not a multiple of 86400, won't update`)
+    console.log(
+      `[handleSetCalendarTime:${saveId}]: Calendar time ${calendarTime} is not a multiple of 86400, won't update`
+    )
     return false
   }
 
@@ -183,6 +191,26 @@ function handleSetCalendarTime(e, saveId, calendarTime) {
   updateJsonValue(jsonPaths.header, "calendar_time", calendarTime)
   updateJsonValue(jsonPaths.gamedata, "date", calendarTime)
   //TODO: IMPLEMENT DAY OF THE WEEK
+
+  return true
+}
+
+function handleSetPronouns(e, saveId, pronouns) {
+  console.log(`[handleSetPronouns:${saveId}]: Updating pronouns to ${pronouns}`)
+
+  if (!(pronouns in PronounsList)) {
+    console.log(`[handleSetPronouns:${saveId}]: invalid pronouns, won't update`)
+    return false
+  }
+
+  const saveInfo = unpackedSavesPathsCache.get(saveId)
+  if (!saveInfo) {
+    console.log(`couldn't find save with id ${saveId}`)
+  }
+
+  const { jsonPaths } = saveInfo
+
+  updateJsonValue(jsonPaths.player, "pronoun_choice", pronouns)
 
   return true
 }
