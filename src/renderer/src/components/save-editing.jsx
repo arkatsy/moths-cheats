@@ -89,7 +89,7 @@ export default function SaveEditing({ saveId, onBack }) {
   const setRenown = (newRenown) => setEdits((edits) => ({ ...edits, renown: newRenown }))
   const setYear = (newYear) => setEdits((edits) => ({ ...edits, year: newYear }))
   const setSeason = (newSeason) => setEdits((edits) => ({ ...edits, season: newSeason }))
-  const setDay = (newDay) => setEdits((edits) => ({ ...edits, day: newDay })),
+  const setDay = (newDay) => setEdits((edits) => ({ ...edits, day: newDay }))
   const setPronouns = (pronouns) => setEdits((edits) => ({ ...edits, pronouns: pronouns }))
   const setHealth = (newHealth) => setEdits((edits) => ({ ...edits, health: newHealth }))
   const setStamina = (newStamina) => setEdits((edits) => ({ ...edits, stamina: newStamina }))
