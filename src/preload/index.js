@@ -11,7 +11,10 @@ const api = {
   setCalendarTime: async (saveId, calendarTime) => ipcRenderer.invoke(IPC.SET_CALENDAR_TIME, saveId, calendarTime),
   setHealth: async (saveId, health) => ipcRenderer.invoke(IPC.SET_HEALTH, saveId, health),
   setStamina: async (saveId, stamina) => ipcRenderer.invoke(IPC.SET_STAMINA, saveId, stamina),
-  setMana: async (saveId, mana) => ipcRenderer.invoke(IPC.SET_MANA, saveId, mana)
+  setMana: async (saveId, mana) => ipcRenderer.invoke(IPC.SET_MANA, saveId, mana),
+  setCalendarTime: async (saveId, calendarTime) =>
+    ipcRenderer.invoke(IPC.SET_CALENDAR_TIME, saveId, calendarTime),
+  setPronouns: async (saveId, pronouns) => ipcRenderer.invoke(IPC.SET_PRONOUNS, saveId, pronouns)
 }
 
 contextBridge.exposeInMainWorld("api", api)
