@@ -15,11 +15,13 @@ export const IPC = {
   UPDATE_SAVE: "update/save",
   GET_SORTED_LOADING_SAVES: "get/sorted-loading-saves",
   GET_SAVE_DATA: "get/save-data",
+  SET_NAME: "set/name",
+  SET_PRONOUNS: "set/pronouns",
+  SET_FARM_NAME: "set/farm-name",
   SET_GOLD: "set/gold",
   SET_ESSENCE: "set/essence",
   SET_RENOWN: "set/renown",
   SET_CALENDAR_TIME: "set/calendar-time",
-  SET_PRONOUNS: "set/pronouns",
   SET_HEALTH: "set/health",
   SET_STAMINA: "set/stamina",
   SET_MANA: "set/mana"
@@ -29,14 +31,16 @@ export const channels = {
   [IPC.UPDATE_SAVE]: handleUpdateSave,
   [IPC.GET_SORTED_LOADING_SAVES]: handleGetSortedLoadingSaves,
   [IPC.GET_SAVE_DATA]: handleGetSaveData,
+  [IPC.SET_NAME]: handleSetName,
+  [IPC.SET_PRONOUNS]: handleSetPronouns,
+  [IPC.SET_FARM_NAME]: handleSetFarmName,
   [IPC.SET_GOLD]: handleSetGold,
   [IPC.SET_ESSENCE]: handleSetEssence,
   [IPC.SET_RENOWN]: handleSetRenown,
   [IPC.SET_CALENDAR_TIME]: handleSetCalendarTime,
   [IPC.SET_HEALTH]: handleSetHealth,
   [IPC.SET_STAMINA]: handleSetStamina,
-  [IPC.SET_MANA]: handleSetMana,
-  [IPC.SET_PRONOUNS]: handleSetPronouns
+  [IPC.SET_MANA]: handleSetMana
 }
 
 function handleUpdateSave(e, saveId) {
@@ -104,6 +108,70 @@ function handleGetSaveData(e, saveId) {
     stamina: headerData.stats.base_stamina,
     mana: headerData.stats.mana_max
   }
+}
+
+function handleSetName(e, saveId, name) {
+  console.log(`[handleSetName:${saveId}]: Updating name to ${name}`)
+
+  if (!(typeof name === 'string' || name instanceof String)) {
+    console.log(`[handleSetName:${saveId}]: Name is not a string ${name}, won't update`)
+    return false
+  }
+
+  const saveInfo = unpackedSavesPathsCache.get(saveId)
+  if (!saveInfo) {
+    console.log(`couldn't find save with id ${saveId} in cache`)
+    return false
+  }
+
+  const { jsonPaths } = saveInfo
+
+  updateJsonValue(jsonPaths.header, "name", name)
+  updateJsonValue(jsonPaths.player, "name", name)
+
+  return true
+}
+
+function handleSetPronouns(e, saveId, pronouns) {
+  console.log(`[handleSetPronouns:${saveId}]: Updating pronouns to ${pronouns}`)
+
+  if (!(pronouns in PronounsList)) {
+    console.log(`[handleSetPronouns:${saveId}]: invalid pronouns, won't update`)
+    return false
+  }
+
+  const saveInfo = unpackedSavesPathsCache.get(saveId)
+  if (!saveInfo) {
+    console.log(`couldn't find save with id ${saveId}`)
+  }
+
+  const { jsonPaths } = saveInfo
+
+  updateJsonValue(jsonPaths.player, "pronoun_choice", pronouns)
+
+  return true
+}
+
+function handleSetFarmName(e, saveId, farmName) {
+  console.log(`[handleSetFarmName:${saveId}]: Updating farm name to ${farmName}`)
+
+  if (!(typeof farmName === 'string' || farmName instanceof String)) {
+    console.log(`[handleSetFarmName:${saveId}]: Farm name is not a string ${farmName}, won't update`)
+    return false
+  }
+
+  const saveInfo = unpackedSavesPathsCache.get(saveId)
+  if (!saveInfo) {
+    console.log(`couldn't find save with id ${saveId} in cache`)
+    return false
+  }
+
+  const { jsonPaths } = saveInfo
+
+  updateJsonValue(jsonPaths.header, "farm_name", farmName)
+  updateJsonValue(jsonPaths.player, "farm_name", farmName)
+
+  return true
 }
 
 function handleSetGold(e, saveId, gold) {
@@ -272,26 +340,6 @@ function handleSetMana(e, saveId, mana) {
   updateJsonValue(jsonPaths.header, "stats.mana_current", mana)
   updateJsonValue(jsonPaths.player, "stats.mana_max", mana)
   updateJsonValue(jsonPaths.player, "stats.mana_current", mana)
-
-  return true
-}
-
-function handleSetPronouns(e, saveId, pronouns) {
-  console.log(`[handleSetPronouns:${saveId}]: Updating pronouns to ${pronouns}`)
-
-  if (!(pronouns in PronounsList)) {
-    console.log(`[handleSetPronouns:${saveId}]: invalid pronouns, won't update`)
-    return false
-  }
-
-  const saveInfo = unpackedSavesPathsCache.get(saveId)
-  if (!saveInfo) {
-    console.log(`couldn't find save with id ${saveId}`)
-  }
-
-  const { jsonPaths } = saveInfo
-
-  updateJsonValue(jsonPaths.player, "pronoun_choice", pronouns)
 
   return true
 }
