@@ -92,12 +92,21 @@ function handleUpdateSave(e, saveId) {
     return false
   }
 
-  const { jsonPaths } = saveInfo
-  const infoData = parseInfoJson(jsonPaths.info)
-  updateJsonValue(jsonPaths.info, "last_played", infoData.last_played + 0.00000000001)
+  // We find the max biggest `last_played` value and then
+  // add a miniscule value to it to make the edited file show first in-game
 
+  const unpackedSavesInfo = Array.from(unpackedSavesPathsCache.values())
+  const longestLastPlayed = Math.max(
+    ...unpackedSavesInfo.map((_saveInfo) => {
+      const infoData = parseInfoJson(_saveInfo.jsonPaths.info)
+      return infoData.last_played
+    })
+  )
+
+  updateJsonValue(saveInfo.jsonPaths.info, "last_played", longestLastPlayed + 0.00000000001)
   vaultc.packSave(saveInfo.unpackPath, saveInfo.fomSavePath)
 
+  // TODO: Instead of refreshing all the saves, we should refresh only the one we edited
   unpackSavesToTemp()
   return true
 }
