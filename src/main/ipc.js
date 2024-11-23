@@ -71,7 +71,6 @@ function handleMeasureUnpacking(e, amount) {
 
   for (const savePath of savesToUnpack) {
     const unpackDir = join(testingDir, getSaveIdFromPath(savePath))
-    // execFileSync(vaultc, ["unpack", savePath, unpackDir])
     vaultc.unpackSave(savePath, unpackDir)
   }
 
