@@ -2,6 +2,7 @@ import {
   unpackedSavesPathsCache,
   updateJsonValue,
   vaultc,
+  unpackSavesToTemp,
   isNumber,
   PronounsList,
   translateCalendarTime,
@@ -9,8 +10,7 @@ import {
   readFomSaves,
   getSaveIdFromPath,
   deleteDirIfExists,
-  parseJsonFile,
-  unpackSaveToTemp
+  parseJsonFile
 } from "./utils"
 
 import { join } from "path"
@@ -106,8 +106,8 @@ async function handleUpdateSave(e, saveId) {
   await updateJsonValue(saveInfo.jsonPaths.info, "last_played", longestLastPlayed + 0.00000000001)
   await vaultc.packSave(saveInfo.unpackPath, saveInfo.fomSavePath)
 
-  await unpackSaveToTemp(saveInfo.fomSavePath)
-
+  // TODO: Instead of refreshing all the saves, we should refresh only the one we edited
+  await unpackSavesToTemp()
   return true
 }
 
