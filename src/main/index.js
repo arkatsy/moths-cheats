@@ -3,14 +3,14 @@ import { join } from "path"
 import { electronApp } from "@electron-toolkit/utils"
 import icon from "../../resources/icon.png?asset"
 import { isDev, unpackSavesToTemp } from "./utils"
-import { channels, IPC } from "./ipc"
+import { channels } from "./ipc"
 
 // Electron runs first and then, when is ready it runs the callback we passed.
 app.whenReady().then(async () => {
   electronApp.setAppUserModelId("moths-cheats")
 
   // this is where we unpack the saves initially, before even creating the window
-  unpackSavesToTemp()
+  await unpackSavesToTemp()
 
   // this is where the main window is being created
   const mainWindow = new BrowserWindow({
@@ -53,10 +53,6 @@ app.whenReady().then(async () => {
   }
 })
 
-ipcMain.on(IPC.GET_SORTED_LOADING_SAVES, channels[IPC.GET_SORTED_LOADING_SAVES])
-
-Object.keys(channels)
-  .filter((channel) => channel !== IPC.GET_SORTED_LOADING_SAVES)
-  .forEach((channelName) => {
-    ipcMain.handle(channelName, channels[channelName])
-  })
+Object.keys(channels).forEach((channelName) => {
+  ipcMain.handle(channelName, channels[channelName])
+})

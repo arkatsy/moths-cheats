@@ -1,4 +1,3 @@
-export const saves = window.api.getSortedLoadingSaves()
 export const seasonsList = ["Spring", "Summer", "Fall", "Winter"]
 
 export const PronounsList = {
