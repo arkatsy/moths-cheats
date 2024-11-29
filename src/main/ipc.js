@@ -33,6 +33,7 @@ export const IPC = {
   SET_HEALTH: "set/health",
   SET_STAMINA: "set/stamina",
   SET_MANA: "set/mana",
+  SET_REWARD_INVENTORY: "set/reward-inventory",
   SET_BIRTHDAY: "set/birthday"
 }
 
@@ -52,6 +53,7 @@ export const channels = {
   [IPC.SET_HEALTH]: handleSetHealth,
   [IPC.SET_STAMINA]: handleSetStamina,
   [IPC.SET_MANA]: handleSetMana,
+  [IPC.SET_REWARD_INVENTORY]: handleSetRewardInventory,
   [IPC.SET_BIRTHDAY]: handleSetBirthday
 }
 
@@ -167,6 +169,7 @@ async function handleGetSaveData(e, saveId) {
     health: headerData.stats.base_health,
     stamina: headerData.stats.base_stamina,
     mana: headerData.stats.mana_max,
+    reward_inventory: playerData.renown_reward_inventory,
     birthdaySeason: translateCalendarTime(playerData.birthday)[1],
     birthdayDay: translateCalendarTime(playerData.birthday)[2]
   }
@@ -406,6 +409,22 @@ async function handleSetMana(e, saveId, mana) {
   await updateJsonValue(jsonPaths.player, "stats.mana_current", mana)
 
   return true
+}
+
+function handleSetRewardInventory(e, saveId, inventory) {
+  console.log(`[handleSetRewardInventory:${saveId}]: Updating reward inventory to ${inventory}`)
+
+  const saveInfo = unpackedSavesPathsCache.get(saveId)
+  if (!saveInfo) {
+    console.log(`couldn't find save with id ${saveId} in cache`)
+    return false
+  }
+
+  // TODO: validate inventory
+
+  const { jsonPaths } = saveInfo
+
+  return updateJsonValue(jsonPaths.player, "renown_reward_inventory", inventory)
 }
 
 async function handleSetBirthday(e, saveId, birthday) {
