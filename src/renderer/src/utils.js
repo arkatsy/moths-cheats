@@ -2,7 +2,7 @@ export const seasonsList = ["Spring", "Summer", "Fall", "Winter"]
 
 /**
  * @desc Translates the playtime variable in header.json into a more accessible format
- * @param time The playtime variable from header.json in seconds
+ * @param {number} time The playtime variable from header.json in seconds
  * @returns A tuple containing the playtime where
  * - playtime[0] = hours
  * - playtime[1] = minutes
@@ -20,7 +20,7 @@ export function translatePlaytime(time) {
 
 /**
  * @desc Displays the playtime in a readable format
- * @param time The playtime variable from header.json in seconds
+ * @param {number} time The playtime variable from header.json in seconds
  * @returns A string containing the playtime in hh:mm:ss format
  */
 export function displayPlaytime(time) {
@@ -31,7 +31,7 @@ export function displayPlaytime(time) {
 
 /**
  * @desc Translates the clock_time variable in header.json into a more accessible format
- * @param time The clock_time variable from header.json in seconds
+ * @param {number} time The clock_time variable from header.json in seconds
  * @returns A tuple containing the clock time where
  * - clockTime[0] = hours
  * - clockTime[1] = minutes
@@ -51,7 +51,7 @@ export function translateClockTime(time) {
 
 /**
  * @desc Displays the clock time in a readable format
- * @param time The clock_time variable from header.json in seconds
+ * @param {number} time The clock_time variable from header.json in seconds
  * @returns A string containing the clock time in hh:mm XM format
  */
 export function displayClockTime(time) {
@@ -62,7 +62,7 @@ export function displayClockTime(time) {
 
 /**
  * @desc Translates the calendar_time variable in header.json into a more accessible format
- * @param time The calendar_time variable from header.json in seconds
+ * @param {number} time The calendar_time variable from header.json in seconds
  * @returns A tuple containing the clock time where
  * - calendarTime[0] = year
  * - calendarTime[1] = season
@@ -80,7 +80,7 @@ export function translateCalendarTime(time) {
 
 /**
  * @desc Displays the calendar time in a readable format
- * @param time The calendar_time variable from header.json in seconds
+ * @param {number} time The calendar_time variable from header.json in seconds
  * @returns A string containing the calendar time in Year # Season # Day # format
  */
 export function displayCalendarTime(time) {
@@ -90,16 +90,16 @@ export function displayCalendarTime(time) {
 
 /**
  * @desc Translates the year, season, and day variables back into a calendar_time variable
- * @param year The year # that we are wanting to translate
- * @param season The season # that we are wanting to translate (0-3)
- * @param day The day # that we are wanting to translate
+ * @param {integer} year The year # that we are wanting to translate
+ * @param {integer} season The season # that we are wanting to translate (0-3)
+ * @param {integer} day The day # that we are wanting to translate
  * @returns A calendar_time value that is the sum of all the inputs translated to seconds
  */
 export function getCalendarTime(year, season, day) {
   // Spring = 0, Summer = 1, Fall = 2, Winter = 3
   // 86400 * 28 = 2419200 seconds = 1 month because 28 days per month
   // 2419200 * 4 = 9676800 seconds = 1 year
-  year = (year - 1) * 9676800
+  if (year > 0) { year = (year - 1) * 9676800 }
   season = season * 2419200
   day = (day - 1) * 86400
   return year + season + day
@@ -107,8 +107,8 @@ export function getCalendarTime(year, season, day) {
 
 /**
  * @desc Gets the current day's forecast using the current calendar time
- * @param time The calendar_time variable from header.json in seconds
- * @param forecast Array of all weathers for the entire current season by day
+ * @param {number} time The calendar_time variable from header.json in seconds
+ * @param {Array<string>} forecast Array of all weathers for the entire current season by day
  * @returns The current day's forecast
  */
 export function getWeather(time, forecast) {
@@ -119,8 +119,8 @@ export function getWeather(time, forecast) {
 
 /**
  * @desc Gets the properties set up for the app to display the current forecast's icon
- * @param time The calendar_time variable from header.json in seconds
- * @param forecast Array of all weathers for the entire current season by day
+ * @param {number} time The calendar_time variable from header.json in seconds
+ * @param {Array<string>} forecast Array of all weathers for the entire current season by day
  * @returns A tuple containing weather information where
  * - weather[0] = the current season
  * - weather[1] = the forecast for the current day
