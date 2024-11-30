@@ -123,17 +123,19 @@ export default function GeneralEdits() {
         <GridItem>
           <SelectInput
             colorPalette="teal"
-            currentValue={seasonsList[edits.birthdaySeason]}
+            collection={seasons}
+            value={edits.birthdaySeason}
             onValueChange={setBirthdaySeason}
             textLabel="Birthday"
-            collection={seasons}
+            placeholder={seasonsList[edits.birthdaySeason]}
           />
           <SelectInput
+            collection={days}
             colorPalette="teal"
-            currentValue={edits.birthdayDay}
+            value={edits.birthdayDay}
             onValueChange={setBirthdayDay}
             // textLabel="Day"
-            collection={days}
+            placeholder={edits.birthdayDay}
           />
         </GridItem>
       </Grid>
