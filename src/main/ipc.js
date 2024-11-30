@@ -34,6 +34,7 @@ export const IPC = {
   SET_STAMINA: "set/stamina",
   SET_MANA: "set/mana",
   SET_REWARD_INVENTORY: "set/reward-inventory",
+  SET_INVENTORY: "set/inventory",
   SET_BIRTHDAY: "set/birthday"
 }
 
@@ -54,6 +55,7 @@ export const channels = {
   [IPC.SET_STAMINA]: handleSetStamina,
   [IPC.SET_MANA]: handleSetMana,
   [IPC.SET_REWARD_INVENTORY]: handleSetRewardInventory,
+  [IPC.SET_INVENTORY]: handleSetInventory,
   [IPC.SET_BIRTHDAY]: handleSetBirthday
 }
 
@@ -170,6 +172,7 @@ async function handleGetSaveData(e, saveId) {
     stamina: headerData.stats.base_stamina,
     mana: headerData.stats.mana_max,
     reward_inventory: playerData.renown_reward_inventory,
+    inventory: playerData.inventory,
     birthdaySeason: translateCalendarTime(playerData.birthday)[1],
     birthdayDay: translateCalendarTime(playerData.birthday)[2]
   }
@@ -421,10 +424,28 @@ function handleSetRewardInventory(e, saveId, inventory) {
   }
 
   // TODO: validate inventory
+  // make sure no infusion on item that can't have it (possible_infusions.length < 1)
 
   const { jsonPaths } = saveInfo
 
   return updateJsonValue(jsonPaths.player, "renown_reward_inventory", inventory)
+}
+
+function handleSetInventory(e, saveId, inventory) {
+  console.log(`[handleSetInventory:${saveId}]: Updating inventory to ${inventory}`)
+
+  const saveInfo = unpackedSavesPathsCache.get(saveId)
+  if (!saveInfo) {
+    console.log(`couldn't find save with id ${saveId} in cache`)
+    return false
+  }
+
+  // TODO: validate inventory
+  // make sure no infusion on item that can't have it (possible_infusions.length < 1)
+
+  const { jsonPaths } = saveInfo
+
+  return updateJsonValue(jsonPaths.player, "inventory", inventory)
 }
 
 async function handleSetBirthday(e, saveId, birthday) {

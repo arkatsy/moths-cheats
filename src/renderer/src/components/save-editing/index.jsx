@@ -9,7 +9,7 @@ import { SaveIdContext } from "src/app"
 import GeneralEdits from "src/components/save-editing/general-edits"
 import StatsEdits from "src/components/save-editing/stats-edits"
 import CalendarEdits from "src/components/save-editing/calendar-edits"
-import RewardsInventory from "src/components/save-editing/rewards-inventory-edits"
+import Inventory from "src/components/save-editing/inventory-edits"
 
 const BROWSER_BACK_BTN = 3
 
@@ -109,7 +109,7 @@ function SaveEditor({ saveData, saveId }) {
           <GeneralEdits />
           <CalendarEdits />
           <StatsEdits />
-          <RewardsInventory />
+          <Inventory />
         </Stack>
       </Box>
     </EditorContext.Provider>
