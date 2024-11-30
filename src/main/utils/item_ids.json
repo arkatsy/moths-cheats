@@ -1,0 +1,5266 @@
+{
+    "butterfly": {
+        "possible_infusions": []
+    },
+    "caterpillar": {
+        "possible_infusions": []
+    },
+    "flower_crown_beetle": {
+        "possible_infusions": []
+    },
+    "petalhopper": {
+        "possible_infusions": []
+    },
+    "ladybug": {
+        "possible_infusions": []
+    },
+    "luna_moth": {
+        "possible_infusions": []
+    },
+    "orchid_mantis": {
+        "possible_infusions": []
+    },
+    "roly_poly": {
+        "possible_infusions": []
+    },
+    "snail": {
+        "possible_infusions": []
+    },
+    "waterbug": {
+        "possible_infusions": []
+    },
+    "cicada": {
+        "possible_infusions": []
+    },
+    "cricket": {
+        "possible_infusions": []
+    },
+    "dragonfly": {
+        "possible_infusions": []
+    },
+    "firefly": {
+        "possible_infusions": []
+    },
+    "jewel_beetle": {
+        "possible_infusions": []
+    },
+    "magma_beetle": {
+        "possible_infusions": []
+    },
+    "strawhopper": {
+        "possible_infusions": []
+    },
+    "strobe_firefly": {
+        "possible_infusions": []
+    },
+    "sand_bug": {
+        "possible_infusions": []
+    },
+    "surf_beetle": {
+        "possible_infusions": []
+    },
+    "beach_hopper": {
+        "possible_infusions": []
+    },
+    "chillipede": {
+        "possible_infusions": []
+    },
+    "cicada_nymph": {
+        "possible_infusions": []
+    },
+    "fairy_bee": {
+        "possible_infusions": []
+    },
+    "inchworm": {
+        "possible_infusions": []
+    },
+    "leafhopper": {
+        "possible_infusions": []
+    },
+    "mistmoth": {
+        "possible_infusions": []
+    },
+    "silver_ingot": {
+        "possible_infusions": []
+    },
+    "monarch_butterfly": {
+        "possible_infusions": []
+    },
+    "glass": {
+        "possible_infusions": []
+    },
+    "tiger_swallowtail_butterfly": {
+        "possible_infusions": []
+    },
+    "peat": {
+        "possible_infusions": []
+    },
+    "walking_leaf": {
+        "possible_infusions": []
+    },
+    "crystal_caterpillar": {
+        "possible_infusions": []
+    },
+    "brightbulb_moth": {
+        "possible_infusions": []
+    },
+    "frost_flutter_butterfly": {
+        "possible_infusions": []
+    },
+    "icehopper": {
+        "possible_infusions": []
+    },
+    "polar_fly": {
+        "possible_infusions": []
+    },
+    "snug_bug": {
+        "possible_infusions": []
+    },
+    "relic_crab": {
+        "possible_infusions": []
+    },
+    "snowball_beetle": {
+        "possible_infusions": []
+    },
+    "walking_stick": {
+        "possible_infusions": []
+    },
+    "winterpillar": {
+        "possible_infusions": []
+    },
+    "ant": {
+        "possible_infusions": []
+    },
+    "bumblebee": {
+        "possible_infusions": []
+    },
+    "fuzzy_moth": {
+        "possible_infusions": []
+    },
+    "grasshopper": {
+        "possible_infusions": []
+    },
+    "hermit_crab": {
+        "possible_infusions": []
+    },
+    "hummingbird_hawk_moth": {
+        "possible_infusions": []
+    },
+    "lightning_dragonfly": {
+        "possible_infusions": []
+    },
+    "pond_skater": {
+        "possible_infusions": []
+    },
+    "praying_mantis": {
+        "possible_infusions": []
+    },
+    "question_mark_butterfly": {
+        "possible_infusions": []
+    },
+    "redhead_worm": {
+        "possible_infusions": []
+    },
+    "speedy_snail": {
+        "possible_infusions": []
+    },
+    "rhinoceros_beetle": {
+        "possible_infusions": []
+    },
+    "breath_of_spring": {
+        "possible_infusions": []
+    },
+    "scent_of_spring": {
+        "possible_infusions": []
+    },
+    "star_brooch": {
+        "possible_infusions": []
+    },
+    "hard_wood": {
+        "possible_infusions": []
+    },
+    "fiber": {
+        "possible_infusions": []
+    },
+    "grass_seed": {
+        "possible_infusions": []
+    },
+    "hay": {
+        "possible_infusions": []
+    },
+    "sod": {
+        "possible_infusions": []
+    },
+    "clay": {
+        "possible_infusions": []
+    },
+    "paper": {
+        "possible_infusions": []
+    },
+    "shards": {
+        "possible_infusions": []
+    },
+    "shard_mass": {
+        "possible_infusions": []
+    },
+    "rock_salt": {
+        "possible_infusions": []
+    },
+    "oil": {
+        "possible_infusions": []
+    },
+    "soy_sauce": {
+        "possible_infusions": []
+    },
+    "curry_powder": {
+        "possible_infusions": []
+    },
+    "honey": {
+        "possible_infusions": []
+    },
+    "chocolate": {
+        "possible_infusions": []
+    },
+    "ore_copper": {
+        "possible_infusions": []
+    },
+    "ore_emerald": {
+        "possible_infusions": []
+    },
+    "ore_ruby": {
+        "possible_infusions": []
+    },
+    "ore_sapphire": {
+        "possible_infusions": []
+    },
+    "ore_diamond": {
+        "possible_infusions": []
+    },
+    "ore_pink_diamond": {
+        "possible_infusions": []
+    },
+    "ore_gold": {
+        "possible_infusions": []
+    },
+    "ore_mistril": {
+        "possible_infusions": []
+    },
+    "ore_iron": {
+        "possible_infusions": []
+    },
+    "ore_silver": {
+        "possible_infusions": []
+    },
+    "flour": {
+        "possible_infusions": []
+    },
+    "rice": {
+        "possible_infusions": []
+    },
+    "sugar": {
+        "possible_infusions": []
+    },
+    "golden_cheese": {
+        "possible_infusions": []
+    },
+    "butter": {
+        "possible_infusions": []
+    },
+    "golden_butter": {
+        "possible_infusions": []
+    },
+    "mayonnaise": {
+        "possible_infusions": []
+    },
+    "duck_mayonnaise": {
+        "possible_infusions": []
+    },
+    "golden_duck_mayonnaise": {
+        "possible_infusions": []
+    },
+    "quality_small_animal_feed": {
+        "possible_infusions": []
+    },
+    "deluxe_small_animal_feed": {
+        "possible_infusions": []
+    },
+    "ultimate_small_animal_feed": {
+        "possible_infusions": []
+    },
+    "quality_hay": {
+        "possible_infusions": []
+    },
+    "deluxe_hay": {
+        "possible_infusions": []
+    },
+    "ultimate_hay": {
+        "possible_infusions": []
+    },
+    "small_grass_starter": {
+        "possible_infusions": []
+    },
+    "turnip": {
+        "possible_infusions": []
+    },
+    "potato": {
+        "possible_infusions": []
+    },
+    "cabbage": {
+        "possible_infusions": []
+    },
+    "strawberry": {
+        "possible_infusions": []
+    },
+    "carrot": {
+        "possible_infusions": []
+    },
+    "peas": {
+        "possible_infusions": []
+    },
+    "cherry": {
+        "possible_infusions": []
+    },
+    "chickpea": {
+        "possible_infusions": []
+    },
+    "wild_leek": {
+        "possible_infusions": []
+    },
+    "tulip": {
+        "possible_infusions": []
+    },
+    "lilac": {
+        "possible_infusions": []
+    },
+    "lemon": {
+        "possible_infusions": []
+    },
+    "snowdrop_anemone": {
+        "possible_infusions": []
+    },
+    "middlemist": {
+        "possible_infusions": []
+    },
+    "daffodil": {
+        "possible_infusions": []
+    },
+    "dandelion": {
+        "possible_infusions": []
+    },
+    "morel_mushroom": {
+        "possible_infusions": []
+    },
+    "fennel": {
+        "possible_infusions": []
+    },
+    "fiddlehead": {
+        "possible_infusions": []
+    },
+    "nettle": {
+        "possible_infusions": []
+    },
+    "wild_berries": {
+        "possible_infusions": []
+    },
+    "blueberry": {
+        "possible_infusions": []
+    },
+    "cucumber": {
+        "possible_infusions": []
+    },
+    "tomato": {
+        "possible_infusions": []
+    },
+    "corn": {
+        "possible_infusions": []
+    },
+    "chili_pepper": {
+        "possible_infusions": []
+    },
+    "watermelon": {
+        "possible_infusions": []
+    },
+    "sugar_cane": {
+        "possible_infusions": []
+    },
+    "tea": {
+        "possible_infusions": []
+    },
+    "seed_sunflower": {
+        "possible_infusions": []
+    },
+    "peach": {
+        "possible_infusions": []
+    },
+    "pear": {
+        "possible_infusions": []
+    },
+    "rose": {
+        "possible_infusions": []
+    },
+    "dill": {
+        "possible_infusions": []
+    },
+    "sage": {
+        "possible_infusions": []
+    },
+    "cosmetic": {
+        "possible_infusions": []
+    },
+    "sunflower": {
+        "possible_infusions": []
+    },
+    "sesame": {
+        "possible_infusions": []
+    },
+    "hydrangea": {
+        "possible_infusions": []
+    },
+    "daisy": {
+        "possible_infusions": []
+    },
+    "iris": {
+        "possible_infusions": []
+    },
+    "catmint": {
+        "possible_infusions": []
+    },
+    "night_queen": {
+        "possible_infusions": []
+    },
+    "coconut": {
+        "possible_infusions": []
+    },
+    "thyme": {
+        "possible_infusions": []
+    },
+    "oregano": {
+        "possible_infusions": []
+    },
+    "basil": {
+        "possible_infusions": []
+    },
+    "cosmos": {
+        "possible_infusions": []
+    },
+    "marigold": {
+        "possible_infusions": []
+    },
+    "wild_grapes": {
+        "possible_infusions": []
+    },
+    "sweet_potato": {
+        "possible_infusions": []
+    },
+    "broccoli": {
+        "possible_infusions": []
+    },
+    "pumpkin": {
+        "possible_infusions": []
+    },
+    "onion": {
+        "possible_infusions": []
+    },
+    "cranberry": {
+        "possible_infusions": []
+    },
+    "rice_stalk": {
+        "possible_infusions": []
+    },
+    "wheat": {
+        "possible_infusions": []
+    },
+    "moon_fruit": {
+        "possible_infusions": []
+    },
+    "rosemary": {
+        "possible_infusions": []
+    },
+    "orange": {
+        "possible_infusions": []
+    },
+    "apple": {
+        "possible_infusions": []
+    },
+    "chestnut": {
+        "possible_infusions": []
+    },
+    "fog_orchid": {
+        "possible_infusions": []
+    },
+    "viola": {
+        "possible_infusions": []
+    },
+    "celosia": {
+        "possible_infusions": []
+    },
+    "heather": {
+        "possible_infusions": []
+    },
+    "garlic": {
+        "possible_infusions": []
+    },
+    "chrysanthemum": {
+        "possible_infusions": []
+    },
+    "horseradish": {
+        "possible_infusions": []
+    },
+    "crafting_scroll": {
+        "possible_infusions": []
+    },
+    "blackberry": {
+        "possible_infusions": []
+    },
+    "cauliflower": {
+        "possible_infusions": []
+    },
+    "daikon_radish": {
+        "possible_infusions": []
+    },
+    "burdock_root": {
+        "possible_infusions": []
+    },
+    "poinsettia": {
+        "possible_infusions": []
+    },
+    "snow_peas": {
+        "possible_infusions": []
+    },
+    "beet": {
+        "possible_infusions": []
+    },
+    "pomegranate": {
+        "possible_infusions": []
+    },
+    "frost_lily": {
+        "possible_infusions": []
+    },
+    "jasmine": {
+        "possible_infusions": []
+    },
+    "snapdragon": {
+        "possible_infusions": []
+    },
+    "crocus": {
+        "possible_infusions": []
+    },
+    "holly": {
+        "possible_infusions": []
+    },
+    "pineshroom": {
+        "possible_infusions": []
+    },
+    "glowberry": {
+        "possible_infusions": []
+    },
+    "oyster_mushroom": {
+        "possible_infusions": []
+    },
+    "ice_block": {
+        "possible_infusions": []
+    },
+    "rose_hip": {
+        "possible_infusions": []
+    },
+    "wintergreen_berry": {
+        "possible_infusions": []
+    },
+    "plum_blossom": {
+        "possible_infusions": []
+    },
+    "pinecone": {
+        "possible_infusions": []
+    },
+    "acorn": {
+        "possible_infusions": []
+    },
+    "cattail": {
+        "possible_infusions": []
+    },
+    "water_chestnut": {
+        "possible_infusions": []
+    },
+    "sapling_apple": {
+        "possible_infusions": []
+    },
+    "seed_basil": {
+        "possible_infusions": []
+    },
+    "seed_broccoli": {
+        "possible_infusions": []
+    },
+    "seed_cabbage": {
+        "possible_infusions": []
+    },
+    "seed_carrot": {
+        "possible_infusions": []
+    },
+    "seed_cauliflower": {
+        "possible_infusions": []
+    },
+    "seed_catmint": {
+        "possible_infusions": []
+    },
+    "seed_celosia": {
+        "possible_infusions": []
+    },
+    "sapling_cherry": {
+        "possible_infusions": []
+    },
+    "seed_chickpea": {
+        "possible_infusions": []
+    },
+    "seed_chili_pepper": {
+        "possible_infusions": []
+    },
+    "seed_chrysanthemum": {
+        "possible_infusions": []
+    },
+    "seed_corn": {
+        "possible_infusions": []
+    },
+    "seed_cranberry": {
+        "possible_infusions": []
+    },
+    "seed_cucumber": {
+        "possible_infusions": []
+    },
+    "seed_daffodil": {
+        "possible_infusions": []
+    },
+    "seed_daisy": {
+        "possible_infusions": []
+    },
+    "seed_dill": {
+        "possible_infusions": []
+    },
+    "seed_cosmos": {
+        "possible_infusions": []
+    },
+    "seed_iris": {
+        "possible_infusions": []
+    },
+    "sapling_lemon": {
+        "possible_infusions": []
+    },
+    "seed_lilac": {
+        "possible_infusions": []
+    },
+    "seed_marigold": {
+        "possible_infusions": []
+    },
+    "seed_night_queen": {
+        "possible_infusions": []
+    },
+    "seed_oregano": {
+        "possible_infusions": []
+    },
+    "sapling_peach": {
+        "possible_infusions": []
+    },
+    "sapling_pear": {
+        "possible_infusions": []
+    },
+    "seed_peas": {
+        "possible_infusions": []
+    },
+    "sapling_pomegranate": {
+        "possible_infusions": []
+    },
+    "seed_potato": {
+        "possible_infusions": []
+    },
+    "seed_pumpkin": {
+        "possible_infusions": []
+    },
+    "seed_sage": {
+        "possible_infusions": []
+    },
+    "seed_snowdrop_anemone": {
+        "possible_infusions": []
+    },
+    "seed_strawberry": {
+        "possible_infusions": []
+    },
+    "seed_sweet_potato": {
+        "possible_infusions": []
+    },
+    "seed_thyme": {
+        "possible_infusions": []
+    },
+    "seed_tomato": {
+        "possible_infusions": []
+    },
+    "seed_tulip": {
+        "possible_infusions": []
+    },
+    "seed_turnip": {
+        "possible_infusions": []
+    },
+    "seed_watermelon": {
+        "possible_infusions": []
+    },
+    "seed_sugar_cane": {
+        "possible_infusions": []
+    },
+    "seed_tea": {
+        "possible_infusions": []
+    },
+    "seed_garlic": {
+        "possible_infusions": []
+    },
+    "seed_heather": {
+        "possible_infusions": []
+    },
+    "seed_moon_fruit": {
+        "possible_infusions": []
+    },
+    "seed_onion": {
+        "possible_infusions": []
+    },
+    "seed_rice": {
+        "possible_infusions": []
+    },
+    "seed_rosemary": {
+        "possible_infusions": []
+    },
+    "seed_viola": {
+        "possible_infusions": []
+    },
+    "seed_wheat": {
+        "possible_infusions": []
+    },
+    "seed_beet": {
+        "possible_infusions": []
+    },
+    "seed_burdock_root": {
+        "possible_infusions": []
+    },
+    "seed_daikon_radish": {
+        "possible_infusions": []
+    },
+    "seed_frost_lily": {
+        "possible_infusions": []
+    },
+    "seed_jasmine": {
+        "possible_infusions": []
+    },
+    "seed_poinsettia": {
+        "possible_infusions": []
+    },
+    "seed_snapdragon": {
+        "possible_infusions": []
+    },
+    "seed_snow_peas": {
+        "possible_infusions": []
+    },
+    "woodcrafting_station": {
+        "possible_infusions": []
+    },
+    "beginner_kitchen": {
+        "possible_infusions": []
+    },
+    "cozy_kitchen": {
+        "possible_infusions": []
+    },
+    "adept_kitchen": {
+        "possible_infusions": []
+    },
+    "perfect_gift": {
+        "possible_infusions": []
+    },
+    "clay_key": {
+        "possible_infusions": []
+    },
+    "small_coop_red_blueprint": {
+        "possible_infusions": []
+    },
+    "small_coop_black_blueprint": {
+        "possible_infusions": []
+    },
+    "medium_coop_red_blueprint": {
+        "possible_infusions": []
+    },
+    "medium_coop_black_blueprint": {
+        "possible_infusions": []
+    },
+    "large_coop_red_blueprint": {
+        "possible_infusions": []
+    },
+    "large_coop_black_blueprint": {
+        "possible_infusions": []
+    },
+    "small_barn_red_blueprint": {
+        "possible_infusions": []
+    },
+    "small_barn_black_blueprint": {
+        "possible_infusions": []
+    },
+    "medium_barn_red_blueprint": {
+        "possible_infusions": []
+    },
+    "medium_barn_black_blueprint": {
+        "possible_infusions": []
+    },
+    "large_barn_red_blueprint": {
+        "possible_infusions": []
+    },
+    "large_barn_black_blueprint": {
+        "possible_infusions": []
+    },
+    "basic_pouch": {
+        "possible_infusions": []
+    },
+    "large_pouch": {
+        "possible_infusions": []
+    },
+    "unidentified_artifact": {
+        "possible_infusions": []
+    },
+    "water_tablet_rubbing": {
+        "possible_infusions": []
+    },
+    "earth_tablet_rubbing": {
+        "possible_infusions": []
+    },
+    "fire_tablet_rubbing": {
+        "possible_infusions": []
+    },
+    "heart_crystal": {
+        "possible_infusions": []
+    },
+    "stamina_up": {
+        "possible_infusions": []
+    },
+    "fairy_syrup": {
+        "possible_infusions": []
+    },
+    "restorative_syrup": {
+        "possible_infusions": []
+    },
+    "heal_syrup": {
+        "possible_infusions": []
+    },
+    "speedy_syrup": {
+        "possible_infusions": []
+    },
+    "stamina_syrup": {
+        "possible_infusions": []
+    },
+    "mana_potion": {
+        "possible_infusions": []
+    },
+    "mob_coin": {
+        "possible_infusions": []
+    },
+    "medium_mob_coin": {
+        "possible_infusions": []
+    },
+    "large_mob_coin": {
+        "possible_infusions": []
+    },
+    "construction_fence": {
+        "possible_infusions": []
+    },
+    "world_fountain": {
+        "possible_infusions": []
+    },
+    "dungeon_fountain_health": {
+        "possible_infusions": []
+    },
+    "dungeon_fountain_stamina": {
+        "possible_infusions": []
+    },
+    "dragonsworn_helmet": {
+        "possible_infusions": []
+    },
+    "dragonsworn_greaves": {
+        "possible_infusions": []
+    },
+    "unusual_seed": {
+        "possible_infusions": []
+    },
+    "stinky_stamina_potion": {
+        "possible_infusions": []
+    },
+    "soup_of_the_day_gold": {
+        "possible_infusions": []
+    },
+    "horse_potion": {
+        "possible_infusions": []
+    },
+    "balors_crate": {
+        "possible_infusions": []
+    },
+    "lurid_colored_drink": {
+        "possible_infusions": []
+    },
+    "dragon_horn_mushroom": {
+        "possible_infusions": []
+    },
+    "dough_lad_doll": {
+        "possible_infusions": []
+    },
+    "ryis_lumber": {
+        "possible_infusions": []
+    },
+    "haydens_weathervane": {
+        "possible_infusions": []
+    },
+    "animal_currency": {
+        "possible_infusions": []
+    },
+    "cow_milk": {
+        "possible_infusions": []
+    },
+    "bull_horn": {
+        "possible_infusions": []
+    },
+    "duck_egg": {
+        "possible_infusions": []
+    },
+    "golden_duck_egg": {
+        "possible_infusions": []
+    },
+    "duck_feather": {
+        "possible_infusions": []
+    },
+    "golden_duck_feather": {
+        "possible_infusions": []
+    },
+    "horse_hair": {
+        "possible_infusions": []
+    },
+    "golden_horse_hair": {
+        "possible_infusions": []
+    },
+    "alpaca_wool": {
+        "possible_infusions": []
+    },
+    "golden_alpaca_wool": {
+        "possible_infusions": []
+    },
+    "bristle": {
+        "possible_infusions": []
+    },
+    "golden_bristle": {
+        "possible_infusions": []
+    },
+    "golden_bull_horn": {
+        "possible_infusions": []
+    },
+    "golden_cow_milk": {
+        "possible_infusions": []
+    },
+    "golden_egg": {
+        "possible_infusions": []
+    },
+    "golden_feather": {
+        "possible_infusions": []
+    },
+    "rabbit_wool": {
+        "possible_infusions": []
+    },
+    "golden_rabbit_wool": {
+        "possible_infusions": []
+    },
+    "sheep_wool": {
+        "possible_infusions": []
+    },
+    "golden_sheep_wool": {
+        "possible_infusions": []
+    },
+    "heart_shaped_chicken_treat": {
+        "possible_infusions": []
+    },
+    "heart_shaped_cow_treat": {
+        "possible_infusions": []
+    },
+    "heart_shaped_duck_treat": {
+        "possible_infusions": []
+    },
+    "heart_shaped_capybara_treat": {
+        "possible_infusions": []
+    },
+    "heart_shaped_rabbit_treat": {
+        "possible_infusions": []
+    },
+    "heart_shaped_horse_treat": {
+        "possible_infusions": []
+    },
+    "heart_shaped_alpaca_treat": {
+        "possible_infusions": []
+    },
+    "heart_shaped_sheep_treat": {
+        "possible_infusions": []
+    },
+    "small_animal_seesaw": {
+        "possible_infusions": []
+    },
+    "large_animal_ball_court": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "cloth_chestpiece": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "cloth_helmet": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "cloth_pants": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "cloth_wristband": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "cloth_shoes": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "scrap_metal_helmet": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "scrap_metal_chestpiece": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "scrap_metal_pants": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "scrap_metal_boots": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "scrap_metal_ring": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "copper_armor": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "copper_ring": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "copper_greaves": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "copper_helmet": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "copper_legplates": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "verdigris_helmet": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "verdigris_chestpiece": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "verdigris_tassets": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "verdigris_boots": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "verdigris_ring": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "iron_armor": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "iron_ring": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "iron_greaves": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "iron_helmet": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "iron_legplates": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "crystal_helmet": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "crystal_chestpiece": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "crystal_tassets": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "crystal_boots": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "crystal_ring": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "silver_armor": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "silver_ring": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "silver_greaves": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "silver_helmet": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "silver_legplates": {
+        "possible_infusions": [
+            "fortified",
+            "hasty"
+        ]
+    },
+    "spirula_shell": {
+        "possible_infusions": []
+    },
+    "sand_dollar": {
+        "possible_infusions": []
+    },
+    "pink_scallop_shell": {
+        "possible_infusions": []
+    },
+    "blue_conch_shell": {
+        "possible_infusions": []
+    },
+    "obsidian": {
+        "possible_infusions": []
+    },
+    "flame_pepper": {
+        "possible_infusions": []
+    },
+    "ash_mushroom": {
+        "possible_infusions": []
+    },
+    "lava_chestnuts": {
+        "possible_infusions": []
+    },
+    "hot_potato": {
+        "possible_infusions": []
+    },
+    "breath_of_fire": {
+        "possible_infusions": []
+    },
+    "really_round_rock": {
+        "possible_infusions": []
+    },
+    "seriously_square_stone": {
+        "possible_infusions": []
+    },
+    "earth_infused_stone": {
+        "possible_infusions": []
+    },
+    "faceted_rock_gem": {
+        "possible_infusions": []
+    },
+    "rock_statue": {
+        "possible_infusions": []
+    },
+    "crystal": {
+        "possible_infusions": []
+    },
+    "crystal_berries": {
+        "possible_infusions": []
+    },
+    "shale_grass": {
+        "possible_infusions": []
+    },
+    "earthshroom": {
+        "possible_infusions": []
+    },
+    "rockroot": {
+        "possible_infusions": []
+    },
+    "crystal_rose": {
+        "possible_infusions": []
+    },
+    "rock_roach": {
+        "possible_infusions": []
+    },
+    "deep_earthworm": {
+        "possible_infusions": []
+    },
+    "crystalline_cricket": {
+        "possible_infusions": []
+    },
+    "gem_shard_caterpillar": {
+        "possible_infusions": []
+    },
+    "crystal_wing_moth": {
+        "possible_infusions": []
+    },
+    "spell_fruit": {
+        "possible_infusions": []
+    },
+    "essence_blossom": {
+        "possible_infusions": []
+    },
+    "miners_pickaxe": {
+        "possible_infusions": []
+    },
+    "tin_lunchbox": {
+        "possible_infusions": []
+    },
+    "miners_slab": {
+        "possible_infusions": []
+    },
+    "miners_rucksack": {
+        "possible_infusions": []
+    },
+    "miners_helmet": {
+        "possible_infusions": []
+    },
+    "upper_mines_mushroom": {
+        "possible_infusions": []
+    },
+    "sweetroot": {
+        "possible_infusions": []
+    },
+    "shadow_flower": {
+        "possible_infusions": []
+    },
+    "narrows_moss": {
+        "possible_infusions": []
+    },
+    "lantern_moth": {
+        "possible_infusions": []
+    },
+    "copper_beetle": {
+        "possible_infusions": []
+    },
+    "worm": {
+        "possible_infusions": []
+    },
+    "mine_cricket": {
+        "possible_infusions": []
+    },
+    "tunnel_millipede": {
+        "possible_infusions": []
+    },
+    "stone_shell": {
+        "possible_infusions": []
+    },
+    "starlight_coral": {
+        "possible_infusions": []
+    },
+    "tidestone": {
+        "possible_infusions": []
+    },
+    "dense_water": {
+        "possible_infusions": []
+    },
+    "crab_statue": {
+        "possible_infusions": []
+    },
+    "coral": {
+        "possible_infusions": []
+    },
+    "underseaweed": {
+        "possible_infusions": []
+    },
+    "sea_grapes": {
+        "possible_infusions": []
+    },
+    "cave_kelp": {
+        "possible_infusions": []
+    },
+    "mines_mussels": {
+        "possible_infusions": []
+    },
+    "tide_lettuce": {
+        "possible_infusions": []
+    },
+    "sea_scarab": {
+        "possible_infusions": []
+    },
+    "waterfly": {
+        "possible_infusions": []
+    },
+    "hermit_snail": {
+        "possible_infusions": []
+    },
+    "puddle_spider": {
+        "possible_infusions": []
+    },
+    "coral_mantis": {
+        "possible_infusions": []
+    },
+    "soup_of_the_day": {
+        "possible_infusions": []
+    },
+    "cheese": {
+        "possible_infusions": []
+    },
+    "egg": {
+        "possible_infusions": []
+    },
+    "sapling_orange": {
+        "possible_infusions": []
+    },
+    "journal": {
+        "possible_infusions": []
+    },
+    "treasure_box_wood": {
+        "possible_infusions": []
+    },
+    "treasure_box_copper": {
+        "possible_infusions": []
+    },
+    "treasure_box_silver": {
+        "possible_infusions": []
+    },
+    "treasure_box_gold": {
+        "possible_infusions": []
+    },
+    "smallmouth_bass": {
+        "possible_infusions": []
+    },
+    "bluegill": {
+        "possible_infusions": []
+    },
+    "chub": {
+        "possible_infusions": []
+    },
+    "grayling": {
+        "possible_infusions": []
+    },
+    "trout": {
+        "possible_infusions": []
+    },
+    "carp": {
+        "possible_infusions": []
+    },
+    "rock_bass": {
+        "possible_infusions": []
+    },
+    "goby": {
+        "possible_infusions": []
+    },
+    "pike": {
+        "possible_infusions": []
+    },
+    "salmon": {
+        "possible_infusions": []
+    },
+    "walleye": {
+        "possible_infusions": []
+    },
+    "sturgeon": {
+        "possible_infusions": []
+    },
+    "paddlefish": {
+        "possible_infusions": []
+    },
+    "minnow": {
+        "possible_infusions": []
+    },
+    "loach": {
+        "possible_infusions": []
+    },
+    "dace": {
+        "possible_infusions": []
+    },
+    "sweetfish": {
+        "possible_infusions": []
+    },
+    "gar": {
+        "possible_infusions": []
+    },
+    "bream": {
+        "possible_infusions": []
+    },
+    "chum": {
+        "possible_infusions": []
+    },
+    "tarpon": {
+        "possible_infusions": []
+    },
+    "lightning_fish": {
+        "possible_infusions": []
+    },
+    "lamprey": {
+        "possible_infusions": []
+    },
+    "shad": {
+        "possible_infusions": []
+    },
+    "perch": {
+        "possible_infusions": []
+    },
+    "razorback": {
+        "possible_infusions": []
+    },
+    "leaf_fish": {
+        "possible_infusions": []
+    },
+    "herring": {
+        "possible_infusions": []
+    },
+    "freshwater_eel": {
+        "possible_infusions": []
+    },
+    "bowfish": {
+        "possible_infusions": []
+    },
+    "shadow_bass": {
+        "possible_infusions": []
+    },
+    "sardine": {
+        "possible_infusions": []
+    },
+    "shrimp": {
+        "possible_infusions": []
+    },
+    "anchovy": {
+        "possible_infusions": []
+    },
+    "butterfish": {
+        "possible_infusions": []
+    },
+    "squid": {
+        "possible_infusions": []
+    },
+    "lobster": {
+        "possible_infusions": []
+    },
+    "sea_bream": {
+        "possible_infusions": []
+    },
+    "jellyfish": {
+        "possible_infusions": []
+    },
+    "tuna": {
+        "possible_infusions": []
+    },
+    "pollock": {
+        "possible_infusions": []
+    },
+    "mackerel": {
+        "possible_infusions": []
+    },
+    "red_snapper": {
+        "possible_infusions": []
+    },
+    "swordfish": {
+        "possible_infusions": []
+    },
+    "ocean_sunfish": {
+        "possible_infusions": []
+    },
+    "crab": {
+        "possible_infusions": []
+    },
+    "dart": {
+        "possible_infusions": []
+    },
+    "sand_lance": {
+        "possible_infusions": []
+    },
+    "stingray": {
+        "possible_infusions": []
+    },
+    "bonito": {
+        "possible_infusions": []
+    },
+    "puffer_fish": {
+        "possible_infusions": []
+    },
+    "cod": {
+        "possible_infusions": []
+    },
+    "octopus": {
+        "possible_infusions": []
+    },
+    "grouper": {
+        "possible_infusions": []
+    },
+    "saury": {
+        "possible_infusions": []
+    },
+    "mullet": {
+        "possible_infusions": []
+    },
+    "halibut": {
+        "possible_infusions": []
+    },
+    "shark": {
+        "possible_infusions": []
+    },
+    "horse_mackerel": {
+        "possible_infusions": []
+    },
+    "sea_bass": {
+        "possible_infusions": []
+    },
+    "king_crab": {
+        "possible_infusions": []
+    },
+    "oarfish": {
+        "possible_infusions": []
+    },
+    "snow_fish": {
+        "possible_infusions": []
+    },
+    "tetra": {
+        "possible_infusions": []
+    },
+    "barb": {
+        "possible_infusions": []
+    },
+    "angel_fish": {
+        "possible_infusions": []
+    },
+    "frog": {
+        "possible_infusions": []
+    },
+    "roach": {
+        "possible_infusions": []
+    },
+    "crucian_carp": {
+        "possible_infusions": []
+    },
+    "koi": {
+        "possible_infusions": []
+    },
+    "catfish": {
+        "possible_infusions": []
+    },
+    "turtle": {
+        "possible_infusions": []
+    },
+    "striped_bass": {
+        "possible_infusions": []
+    },
+    "brown_trout": {
+        "possible_infusions": []
+    },
+    "snakehead": {
+        "possible_infusions": []
+    },
+    "goldfish": {
+        "possible_infusions": []
+    },
+    "cherry_fish": {
+        "possible_infusions": []
+    },
+    "lake_chub": {
+        "possible_infusions": []
+    },
+    "golden_shiner": {
+        "possible_infusions": []
+    },
+    "bullfrog": {
+        "possible_infusions": []
+    },
+    "brown_bullhead": {
+        "possible_infusions": []
+    },
+    "snapping_turtle": {
+        "possible_infusions": []
+    },
+    "sauger": {
+        "possible_infusions": []
+    },
+    "giant_tilapia": {
+        "possible_infusions": []
+    },
+    "alligator_gar": {
+        "possible_infusions": []
+    },
+    "killifish": {
+        "possible_infusions": []
+    },
+    "rainbow_trout": {
+        "possible_infusions": []
+    },
+    "bluefish": {
+        "possible_infusions": []
+    },
+    "white_perch": {
+        "possible_infusions": []
+    },
+    "tilapia": {
+        "possible_infusions": []
+    },
+    "flathead_catfish": {
+        "possible_infusions": []
+    },
+    "burbot": {
+        "possible_infusions": []
+    },
+    "giant_koi": {
+        "possible_infusions": []
+    },
+    "cave_shrimp": {
+        "possible_infusions": []
+    },
+    "rock_guppy": {
+        "possible_infusions": []
+    },
+    "stone_loach": {
+        "possible_infusions": []
+    },
+    "cave_eel": {
+        "possible_infusions": []
+    },
+    "cave_shark": {
+        "possible_infusions": []
+    },
+    "sapphire_betta": {
+        "possible_infusions": []
+    },
+    "archerfish": {
+        "possible_infusions": []
+    },
+    "transparent_jellyfish": {
+        "possible_infusions": []
+    },
+    "water_balloon_fish": {
+        "possible_infusions": []
+    },
+    "mini_whale_shark": {
+        "possible_infusions": []
+    },
+    "emerald_horned_charger": {
+        "possible_infusions": []
+    },
+    "earth_eel": {
+        "possible_infusions": []
+    },
+    "rockbiter": {
+        "possible_infusions": []
+    },
+    "pebble_minnow": {
+        "possible_infusions": []
+    },
+    "shardfin": {
+        "possible_infusions": []
+    },
+    "seaweed": {
+        "possible_infusions": []
+    },
+    "clam": {
+        "possible_infusions": []
+    },
+    "pearl_clam": {
+        "possible_infusions": []
+    },
+    "freshwater_oyster": {
+        "possible_infusions": []
+    },
+    "crayfish": {
+        "possible_infusions": []
+    },
+    "paper_pondshell": {
+        "possible_infusions": []
+    },
+    "pond_snail": {
+        "possible_infusions": []
+    },
+    "river_snail": {
+        "possible_infusions": []
+    },
+    "newt": {
+        "possible_infusions": []
+    },
+    "rusted_shield": {
+        "possible_infusions": []
+    },
+    "rock_with_a_hole": {
+        "possible_infusions": []
+    },
+    "rainbow_seaweed": {
+        "possible_infusions": []
+    },
+    "criminal_confession": {
+        "possible_infusions": []
+    },
+    "mermaids_comb": {
+        "possible_infusions": []
+    },
+    "rubber_fish": {
+        "possible_infusions": []
+    },
+    "giant_fish_scale": {
+        "possible_infusions": []
+    },
+    "coin_lump": {
+        "possible_infusions": []
+    },
+    "water_sphere": {
+        "possible_infusions": []
+    },
+    "rusted_treasure_chest": {
+        "possible_infusions": []
+    },
+    "star_lantern_yellow": {
+        "possible_infusions": []
+    },
+    "star_lantern_white": {
+        "possible_infusions": []
+    },
+    "star_lantern_pink": {
+        "possible_infusions": []
+    },
+    "star_lantern_purple": {
+        "possible_infusions": []
+    },
+    "star_lantern_blue": {
+        "possible_infusions": []
+    },
+    "star_viewing_blanket_yellow": {
+        "possible_infusions": []
+    },
+    "star_viewing_blanket_pink": {
+        "possible_infusions": []
+    },
+    "star_viewing_blanket_purple": {
+        "possible_infusions": []
+    },
+    "star_viewing_blanket_blue": {
+        "possible_infusions": []
+    },
+    "star_cushion_yellow": {
+        "possible_infusions": []
+    },
+    "star_cushion_white": {
+        "possible_infusions": []
+    },
+    "star_cushion_pink": {
+        "possible_infusions": []
+    },
+    "star_cushion_purple": {
+        "possible_infusions": []
+    },
+    "star_cushion_light_blue": {
+        "possible_infusions": []
+    },
+    "star_cushion_blue": {
+        "possible_infusions": []
+    },
+    "campfire": {
+        "possible_infusions": []
+    },
+    "starter_potted_plant": {
+        "possible_infusions": []
+    },
+    "starter_scarecrow": {
+        "possible_infusions": []
+    },
+    "starter_bird_house_red": {
+        "possible_infusions": []
+    },
+    "starter_stone_path": {
+        "possible_infusions": []
+    },
+    "starter_stone_path_double": {
+        "possible_infusions": []
+    },
+    "starter_well": {
+        "possible_infusions": []
+    },
+    "starter_wheelbarrow": {
+        "possible_infusions": []
+    },
+    "starter_wood_fence": {
+        "possible_infusions": []
+    },
+    "starter_shipping_box": {
+        "possible_infusions": []
+    },
+    "spooky_haybale": {
+        "possible_infusions": []
+    },
+    "dirt_clear": {
+        "possible_infusions": []
+    },
+    "dirt_dot_one": {
+        "possible_infusions": []
+    },
+    "dirt_dot_two": {
+        "possible_infusions": []
+    },
+    "dirt_dot_three": {
+        "possible_infusions": []
+    },
+    "field_clear": {
+        "possible_infusions": []
+    },
+    "field_flower": {
+        "possible_infusions": []
+    },
+    "field_flower_two": {
+        "possible_infusions": []
+    },
+    "field_grass": {
+        "possible_infusions": []
+    },
+    "field_grass_two": {
+        "possible_infusions": []
+    },
+    "weather_crystal_ball": {
+        "possible_infusions": []
+    },
+    "espresso_machine": {
+        "possible_infusions": []
+    },
+    "tile_roof_fence_v1": {
+        "possible_infusions": []
+    },
+    "tile_roof_fence_v2": {
+        "possible_infusions": []
+    },
+    "tile_roof_fence_v3": {
+        "possible_infusions": []
+    },
+    "moon_gate_v1": {
+        "possible_infusions": []
+    },
+    "moon_gate_v2": {
+        "possible_infusions": []
+    },
+    "moon_gate_v3": {
+        "possible_infusions": []
+    },
+    "picket_fence": {
+        "possible_infusions": []
+    },
+    "stone_wall": {
+        "possible_infusions": []
+    },
+    "farm_house_calendar": {
+        "possible_infusions": []
+    },
+    "alda_pot_replica_blue": {
+        "possible_infusions": []
+    },
+    "alda_pot_replica_green": {
+        "possible_infusions": []
+    },
+    "alda_pot_replica_red": {
+        "possible_infusions": []
+    },
+    "alda_pot_replica_purple": {
+        "possible_infusions": []
+    },
+    "alda_pot_replica_gold": {
+        "possible_infusions": []
+    },
+    "training_dummy_sapling": {
+        "possible_infusions": []
+    },
+    "training_dummy_mushroom": {
+        "possible_infusions": []
+    },
+    "training_dummy_clod": {
+        "possible_infusions": []
+    },
+    "mournful_clown_painting": {
+        "possible_infusions": []
+    },
+    "fish_plush_toy": {
+        "possible_infusions": []
+    },
+    "summit_wallpaper_v1": {
+        "possible_infusions": []
+    },
+    "starry_flooring_v1": {
+        "possible_infusions": []
+    },
+    "summit_wallpaper_v2": {
+        "possible_infusions": []
+    },
+    "starry_flooring_v2": {
+        "possible_infusions": []
+    },
+    "firefly_wall_string_lights_blue": {
+        "possible_infusions": []
+    },
+    "firefly_wall_string_lights_pink": {
+        "possible_infusions": []
+    },
+    "firefly_wall_string_lights_purple": {
+        "possible_infusions": []
+    },
+    "firefly_wall_string_lights_white": {
+        "possible_infusions": []
+    },
+    "firefly_wall_string_lights_yellow": {
+        "possible_infusions": []
+    },
+    "big_bell": {
+        "possible_infusions": []
+    },
+    "dragon_altar_water": {
+        "possible_infusions": []
+    },
+    "dragon_altar_earth": {
+        "possible_infusions": []
+    },
+    "dragon_altar_fire": {
+        "possible_infusions": []
+    },
+    "bathroom_sink_black": {
+        "possible_infusions": []
+    },
+    "bathroom_sink_white": {
+        "possible_infusions": []
+    },
+    "bathroom_bench_black": {
+        "possible_infusions": []
+    },
+    "bathroom_bench_white": {
+        "possible_infusions": []
+    },
+    "bathroom_wall_mirror_black": {
+        "possible_infusions": []
+    },
+    "bathroom_wall_mirror_white": {
+        "possible_infusions": []
+    },
+    "gold_wall_mirror": {
+        "possible_infusions": []
+    },
+    "bathroom_floor_mirror_black": {
+        "possible_infusions": []
+    },
+    "bathroom_floor_mirror_white": {
+        "possible_infusions": []
+    },
+    "gold_floor_mirror": {
+        "possible_infusions": []
+    },
+    "toilet_black": {
+        "possible_infusions": []
+    },
+    "toilet_white": {
+        "possible_infusions": []
+    },
+    "bathtub_black": {
+        "possible_infusions": []
+    },
+    "bathtub_white": {
+        "possible_infusions": []
+    },
+    "bathroom_wall_sconce": {
+        "possible_infusions": []
+    },
+    "bathroom_curtain_stand_blue": {
+        "possible_infusions": []
+    },
+    "bathroom_curtain_stand_green": {
+        "possible_infusions": []
+    },
+    "bathroom_curtain_stand_light_green": {
+        "possible_infusions": []
+    },
+    "bathroom_curtain_stand_pink": {
+        "possible_infusions": []
+    },
+    "bathroom_curtain_stand_black": {
+        "possible_infusions": []
+    },
+    "bathroom_curtain_stand_brown": {
+        "possible_infusions": []
+    },
+    "bathroom_curtain_stand_white": {
+        "possible_infusions": []
+    },
+    "small_bathmat_blue": {
+        "possible_infusions": []
+    },
+    "small_bathmat_green": {
+        "possible_infusions": []
+    },
+    "small_bathmat_light_green": {
+        "possible_infusions": []
+    },
+    "small_bathmat_pink": {
+        "possible_infusions": []
+    },
+    "small_bathmat_black": {
+        "possible_infusions": []
+    },
+    "small_bathmat_brown": {
+        "possible_infusions": []
+    },
+    "small_bathmat_white": {
+        "possible_infusions": []
+    },
+    "small_bathmat_beige": {
+        "possible_infusions": []
+    },
+    "large_fluffy_rug_blue": {
+        "possible_infusions": []
+    },
+    "large_fluffy_rug_green": {
+        "possible_infusions": []
+    },
+    "large_fluffy_rug_light_green": {
+        "possible_infusions": []
+    },
+    "large_fluffy_rug_pink": {
+        "possible_infusions": []
+    },
+    "large_fluffy_rug_black": {
+        "possible_infusions": []
+    },
+    "large_fluffy_rug_brown": {
+        "possible_infusions": []
+    },
+    "large_fluffy_rug_white": {
+        "possible_infusions": []
+    },
+    "large_fluffy_rug_beige": {
+        "possible_infusions": []
+    },
+    "round_cushioned_stool_blue": {
+        "possible_infusions": []
+    },
+    "round_cushioned_stool_green": {
+        "possible_infusions": []
+    },
+    "round_cushioned_stool_light_green": {
+        "possible_infusions": []
+    },
+    "round_cushioned_stool_pink": {
+        "possible_infusions": []
+    },
+    "round_cushioned_stool_black": {
+        "possible_infusions": []
+    },
+    "round_cushioned_stool_brown": {
+        "possible_infusions": []
+    },
+    "round_cushioned_stool_white": {
+        "possible_infusions": []
+    },
+    "round_cushioned_stool_beige": {
+        "possible_infusions": []
+    },
+    "bathroom_wall_towel_blue": {
+        "possible_infusions": []
+    },
+    "bathroom_wall_towel_green": {
+        "possible_infusions": []
+    },
+    "bathroom_wall_towel_light_green": {
+        "possible_infusions": []
+    },
+    "bathroom_wall_towel_pink": {
+        "possible_infusions": []
+    },
+    "bathroom_wall_towel_black": {
+        "possible_infusions": []
+    },
+    "bathroom_wall_towel_brown": {
+        "possible_infusions": []
+    },
+    "bathroom_wall_towel_white": {
+        "possible_infusions": []
+    },
+    "bathroom_tile_wall_blue": {
+        "possible_infusions": []
+    },
+    "bathroom_tile_wall_green": {
+        "possible_infusions": []
+    },
+    "bathroom_tile_wall_light_green": {
+        "possible_infusions": []
+    },
+    "bathroom_tile_wall_pink": {
+        "possible_infusions": []
+    },
+    "herringbone_tile_floor_blue": {
+        "possible_infusions": []
+    },
+    "herringbone_tile_floor_green": {
+        "possible_infusions": []
+    },
+    "herringbone_tile_floor_white": {
+        "possible_infusions": []
+    },
+    "square_tile_floor": {
+        "possible_infusions": []
+    },
+    "spring_bed_orange": {
+        "possible_infusions": []
+    },
+    "spring_double_bed_orange": {
+        "possible_infusions": []
+    },
+    "spring_flooring_orange": {
+        "possible_infusions": []
+    },
+    "spring_lamp_orange": {
+        "possible_infusions": []
+    },
+    "spring_potted_tree_orange": {
+        "possible_infusions": []
+    },
+    "spring_rug_orange": {
+        "possible_infusions": []
+    },
+    "spring_sofa_orange": {
+        "possible_infusions": []
+    },
+    "spring_wallpaper_orange": {
+        "possible_infusions": []
+    },
+    "spring_bed_pink": {
+        "possible_infusions": []
+    },
+    "spring_double_bed_pink": {
+        "possible_infusions": []
+    },
+    "spring_flooring_pink": {
+        "possible_infusions": []
+    },
+    "spring_lamp_pink": {
+        "possible_infusions": []
+    },
+    "spring_potted_tree_pink": {
+        "possible_infusions": []
+    },
+    "spring_rug_pink": {
+        "possible_infusions": []
+    },
+    "spring_sofa_pink": {
+        "possible_infusions": []
+    },
+    "spring_wallpaper_pink": {
+        "possible_infusions": []
+    },
+    "spring_bed_purple": {
+        "possible_infusions": []
+    },
+    "spring_double_bed_purple": {
+        "possible_infusions": []
+    },
+    "spring_flooring_purple": {
+        "possible_infusions": []
+    },
+    "spring_lamp_purple": {
+        "possible_infusions": []
+    },
+    "spring_potted_tree_purple": {
+        "possible_infusions": []
+    },
+    "spring_rug_purple": {
+        "possible_infusions": []
+    },
+    "spring_sofa_purple": {
+        "possible_infusions": []
+    },
+    "spring_wallpaper_purple": {
+        "possible_infusions": []
+    },
+    "coffee_mug_v1": {
+        "possible_infusions": []
+    },
+    "coffee_mug_v2": {
+        "possible_infusions": []
+    },
+    "coffee_mug_v3": {
+        "possible_infusions": []
+    },
+    "espresso_cup_v1": {
+        "possible_infusions": []
+    },
+    "espresso_cup_v2": {
+        "possible_infusions": []
+    },
+    "espresso_cup_v3": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v01": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v02": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v03": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v04": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v05": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v06": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v07": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v08": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v09": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v10": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v11": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v12": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v13": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v14": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v15": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v16": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v17": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v18": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v19": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v20": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v21": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v22": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v23": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v24": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v25": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v26": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v27": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v28": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v29": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v30": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v31": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v32": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v33": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v34": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v35": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v36": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v37": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v38": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v39": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v40": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v41": {
+        "possible_infusions": []
+    },
+    "color_paving_stone_v42": {
+        "possible_infusions": []
+    },
+    "haunted_attic_armoire_dusty": {
+        "possible_infusions": []
+    },
+    "haunted_attic_armoire_dark": {
+        "possible_infusions": []
+    },
+    "haunted_attic_bed_dusty": {
+        "possible_infusions": []
+    },
+    "haunted_attic_bed_dark": {
+        "possible_infusions": []
+    },
+    "haunted_attic_candle_single": {
+        "possible_infusions": []
+    },
+    "haunted_attic_candle_single_dark": {
+        "possible_infusions": []
+    },
+    "haunted_attic_candle_cluster": {
+        "possible_infusions": []
+    },
+    "haunted_attic_candle_cluster_dark": {
+        "possible_infusions": []
+    },
+    "haunted_attic_chair_dusty": {
+        "possible_infusions": []
+    },
+    "haunted_attic_chair_dark": {
+        "possible_infusions": []
+    },
+    "haunted_attic_double_bed_dusty": {
+        "possible_infusions": []
+    },
+    "haunted_attic_double_bed_dark": {
+        "possible_infusions": []
+    },
+    "haunted_attic_dress_form_dusty": {
+        "possible_infusions": []
+    },
+    "haunted_attic_dress_form_dark": {
+        "possible_infusions": []
+    },
+    "haunted_attic_nightstand_dusty": {
+        "possible_infusions": []
+    },
+    "haunted_attic_nightstand_dark": {
+        "possible_infusions": []
+    },
+    "haunted_attic_rocking_chair_dusty": {
+        "possible_infusions": []
+    },
+    "haunted_attic_rocking_chair_dark": {
+        "possible_infusions": []
+    },
+    "haunted_attic_table_dusty": {
+        "possible_infusions": []
+    },
+    "haunted_attic_table_dark": {
+        "possible_infusions": []
+    },
+    "haunted_attic_wall_cobweb_left": {
+        "possible_infusions": []
+    },
+    "haunted_attic_wall_cobweb_left_dark": {
+        "possible_infusions": []
+    },
+    "feather": {
+        "possible_infusions": []
+    },
+    "haunted_attic_wall_cobweb_right": {
+        "possible_infusions": []
+    },
+    "haunted_attic_wall_cobweb_right_dark": {
+        "possible_infusions": []
+    },
+    "haunted_attic_wall_shelf_dusty": {
+        "possible_infusions": []
+    },
+    "haunted_attic_wall_shelf_dark": {
+        "possible_infusions": []
+    },
+    "golden_mayonnaise": {
+        "possible_infusions": []
+    },
+    "haunted_attic_wall_window_dusty": {
+        "possible_infusions": []
+    },
+    "haunted_attic_wall_window_dark": {
+        "possible_infusions": []
+    },
+    "haunted_attic_wallpaper_dusty": {
+        "possible_infusions": []
+    },
+    "haunted_attic_wallpaper_dark": {
+        "possible_infusions": []
+    },
+    "haunted_attic_flooring_dusty": {
+        "possible_infusions": []
+    },
+    "haunted_attic_flooring_dark": {
+        "possible_infusions": []
+    },
+    "crop_faux_basil": {
+        "possible_infusions": []
+    },
+    "crop_faux_beet": {
+        "possible_infusions": []
+    },
+    "crop_faux_blue_conch_shell": {
+        "possible_infusions": []
+    },
+    "crop_faux_broccoli": {
+        "possible_infusions": []
+    },
+    "crop_faux_burdock_root": {
+        "possible_infusions": []
+    },
+    "crop_faux_cabbage": {
+        "possible_infusions": []
+    },
+    "crop_faux_carrot": {
+        "possible_infusions": []
+    },
+    "crop_faux_catmint": {
+        "possible_infusions": []
+    },
+    "crop_faux_cauliflower": {
+        "possible_infusions": []
+    },
+    "crop_faux_cave_kelp": {
+        "possible_infusions": []
+    },
+    "crop_faux_celosia": {
+        "possible_infusions": []
+    },
+    "crop_faux_chestnut": {
+        "possible_infusions": []
+    },
+    "crop_faux_chickpea": {
+        "possible_infusions": []
+    },
+    "crop_faux_chili_pepper": {
+        "possible_infusions": []
+    },
+    "crop_faux_chrysanthemum": {
+        "possible_infusions": []
+    },
+    "crop_faux_corn": {
+        "possible_infusions": []
+    },
+    "crop_faux_cranberry": {
+        "possible_infusions": []
+    },
+    "crop_faux_crocus": {
+        "possible_infusions": []
+    },
+    "crop_faux_crystal_berries": {
+        "possible_infusions": []
+    },
+    "crop_faux_crystal_rose": {
+        "possible_infusions": []
+    },
+    "crop_faux_cucumber": {
+        "possible_infusions": []
+    },
+    "crop_faux_daffodil": {
+        "possible_infusions": []
+    },
+    "crop_faux_daikon_radish": {
+        "possible_infusions": []
+    },
+    "crop_faux_daisy": {
+        "possible_infusions": []
+    },
+    "crop_faux_dandelion": {
+        "possible_infusions": []
+    },
+    "crop_faux_dill": {
+        "possible_infusions": []
+    },
+    "crop_faux_earthshroom": {
+        "possible_infusions": []
+    },
+    "crop_faux_fennel": {
+        "possible_infusions": []
+    },
+    "crop_faux_fiddlehead": {
+        "possible_infusions": []
+    },
+    "crop_faux_fog_orchid": {
+        "possible_infusions": []
+    },
+    "crop_faux_frost_lily": {
+        "possible_infusions": []
+    },
+    "crop_faux_cosmos": {
+        "possible_infusions": []
+    },
+    "crop_faux_garlic": {
+        "possible_infusions": []
+    },
+    "crop_faux_heather": {
+        "possible_infusions": []
+    },
+    "crop_faux_holly": {
+        "possible_infusions": []
+    },
+    "crop_faux_horseradish": {
+        "possible_infusions": []
+    },
+    "crop_faux_ice_block": {
+        "possible_infusions": []
+    },
+    "crop_faux_iris": {
+        "possible_infusions": []
+    },
+    "crop_faux_jasmine": {
+        "possible_infusions": []
+    },
+    "crop_faux_lilac": {
+        "possible_infusions": []
+    },
+    "crop_faux_marigold": {
+        "possible_infusions": []
+    },
+    "crop_faux_middlemist": {
+        "possible_infusions": []
+    },
+    "crop_faux_mines_mussels": {
+        "possible_infusions": []
+    },
+    "crop_faux_moon_fruit": {
+        "possible_infusions": []
+    },
+    "crop_faux_morel_mushroom": {
+        "possible_infusions": []
+    },
+    "crop_faux_narrows_moss": {
+        "possible_infusions": []
+    },
+    "crop_faux_nettle": {
+        "possible_infusions": []
+    },
+    "crop_faux_night_queen": {
+        "possible_infusions": []
+    },
+    "crop_faux_onion": {
+        "possible_infusions": []
+    },
+    "crop_faux_oregano": {
+        "possible_infusions": []
+    },
+    "crop_faux_oyster_mushroom": {
+        "possible_infusions": []
+    },
+    "crop_faux_peas": {
+        "possible_infusions": []
+    },
+    "crop_faux_pineshroom": {
+        "possible_infusions": []
+    },
+    "crop_faux_pink_scallop_shell": {
+        "possible_infusions": []
+    },
+    "crop_faux_poinsettia": {
+        "possible_infusions": []
+    },
+    "crop_faux_potato": {
+        "possible_infusions": []
+    },
+    "crop_faux_pumpkin": {
+        "possible_infusions": []
+    },
+    "crop_faux_rice": {
+        "possible_infusions": []
+    },
+    "crop_faux_rockroot": {
+        "possible_infusions": []
+    },
+    "crop_faux_rosemary": {
+        "possible_infusions": []
+    },
+    "crop_faux_sage": {
+        "possible_infusions": []
+    },
+    "crop_faux_sand_dollar": {
+        "possible_infusions": []
+    },
+    "crop_faux_sea_grapes": {
+        "possible_infusions": []
+    },
+    "crop_faux_sesame": {
+        "possible_infusions": []
+    },
+    "crop_faux_shadow_flower": {
+        "possible_infusions": []
+    },
+    "crop_faux_shale_grass": {
+        "possible_infusions": []
+    },
+    "crop_faux_snapdragon": {
+        "possible_infusions": []
+    },
+    "crop_faux_snowdrop_anemone": {
+        "possible_infusions": []
+    },
+    "crop_faux_snow_peas": {
+        "possible_infusions": []
+    },
+    "crop_faux_spirula_shell": {
+        "possible_infusions": []
+    },
+    "crop_faux_strawberry": {
+        "possible_infusions": []
+    },
+    "crop_faux_sugar_cane": {
+        "possible_infusions": []
+    },
+    "crop_faux_sunflower": {
+        "possible_infusions": []
+    },
+    "crop_faux_sweetroot": {
+        "possible_infusions": []
+    },
+    "crop_faux_sweet_potato": {
+        "possible_infusions": []
+    },
+    "crop_faux_tea": {
+        "possible_infusions": []
+    },
+    "crop_faux_thyme": {
+        "possible_infusions": []
+    },
+    "crop_faux_tide_lettuce": {
+        "possible_infusions": []
+    },
+    "crop_faux_tomato": {
+        "possible_infusions": []
+    },
+    "animal_cosmetic": {
+        "possible_infusions": []
+    },
+    "crop_faux_tulip": {
+        "possible_infusions": []
+    },
+    "crop_faux_turnip": {
+        "possible_infusions": []
+    },
+    "crop_faux_upper_mines_mushroom": {
+        "possible_infusions": []
+    },
+    "crop_faux_viola": {
+        "possible_infusions": []
+    },
+    "crop_faux_watermelon": {
+        "possible_infusions": []
+    },
+    "crop_faux_wheat": {
+        "possible_infusions": []
+    },
+    "crop_faux_wild_leek": {
+        "possible_infusions": []
+    },
+    "inn_stool": {
+        "possible_infusions": []
+    },
+    "inn_candle": {
+        "possible_infusions": []
+    },
+    "inn_cross_stitch": {
+        "possible_infusions": []
+    },
+    "inn_kitchen_shelves": {
+        "possible_infusions": []
+    },
+    "inn_counter": {
+        "possible_infusions": []
+    },
+    "inn_tile_flooring": {
+        "possible_infusions": []
+    },
+    "inn_wooden_flooring": {
+        "possible_infusions": []
+    },
+    "rustic_cabin_scroll_bundle": {
+        "possible_infusions": []
+    },
+    "cabin_bed_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_bed_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_bed_oak": {
+        "possible_infusions": []
+    },
+    "cabin_bookshelf_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_bookshelf_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_bookshelf_oak": {
+        "possible_infusions": []
+    },
+    "cabin_chair_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_chair_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_chair_oak": {
+        "possible_infusions": []
+    },
+    "cabin_bed_double_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_bed_double_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_bed_double_oak": {
+        "possible_infusions": []
+    },
+    "cabin_dresser_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_dresser_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_dresser_oak": {
+        "possible_infusions": []
+    },
+    "cabin_firewood_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_firewood_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_firewood_oak": {
+        "possible_infusions": []
+    },
+    "cabin_flooring_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_flooring_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_flooring_oak": {
+        "possible_infusions": []
+    },
+    "cabin_lamp_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_lamp_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_lamp_oak": {
+        "possible_infusions": []
+    },
+    "cabin_nightstand_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_nightstand_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_nightstand_oak": {
+        "possible_infusions": []
+    },
+    "cabin_stove_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_stove_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_table_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_table_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_table_oak": {
+        "possible_infusions": []
+    },
+    "cabin_wall_shelf_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_wall_shelf_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_wall_shelf_oak": {
+        "possible_infusions": []
+    },
+    "cabin_wall_window_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_wall_window_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_wall_window_oak": {
+        "possible_infusions": []
+    },
+    "cabin_wallpaper_cherry": {
+        "possible_infusions": []
+    },
+    "cabin_wallpaper_walnut": {
+        "possible_infusions": []
+    },
+    "cabin_wallpaper_oak": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_dark": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_light": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_medium": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_witch_queen": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_black": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_cottage": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_haunted_attic": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_red": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_orange": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_yellow": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_green": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_blue": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_purple": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_pink": {
+        "possible_infusions": []
+    },
+    "basic_wood_chest_white": {
+        "possible_infusions": []
+    },
+    "fishing_flooring_blue": {
+        "possible_infusions": []
+    },
+    "fishing_flooring_red": {
+        "possible_infusions": []
+    },
+    "fishing_wallpaper_blue": {
+        "possible_infusions": []
+    },
+    "fishing_wallpaper_red": {
+        "possible_infusions": []
+    },
+    "fishing_bed_blue": {
+        "possible_infusions": []
+    },
+    "fishing_bed_red": {
+        "possible_infusions": []
+    },
+    "fishing_double_bed_blue": {
+        "possible_infusions": []
+    },
+    "fishing_double_bed_red": {
+        "possible_infusions": []
+    },
+    "fishing_table_blue": {
+        "possible_infusions": []
+    },
+    "fishing_table_red": {
+        "possible_infusions": []
+    },
+    "fishing_chair_blue": {
+        "possible_infusions": []
+    },
+    "fishing_chair_red": {
+        "possible_infusions": []
+    },
+    "fishing_rug_blue": {
+        "possible_infusions": []
+    },
+    "fishing_rug_red": {
+        "possible_infusions": []
+    },
+    "fishing_lamp_blue": {
+        "possible_infusions": []
+    },
+    "fishing_lamp_red": {
+        "possible_infusions": []
+    },
+    "fishing_oar_wall_decor_blue": {
+        "possible_infusions": []
+    },
+    "fishing_oar_wall_decor_red": {
+        "possible_infusions": []
+    },
+    "fishing_window_silver": {
+        "possible_infusions": []
+    },
+    "fishing_window_gold": {
+        "possible_infusions": []
+    },
+    "fishing_plaque_blue": {
+        "possible_infusions": []
+    },
+    "fishing_plaque_red": {
+        "possible_infusions": []
+    },
+    "fishing_trophy_shelf_blue": {
+        "possible_infusions": []
+    },
+    "fishing_trophy_shelf_red": {
+        "possible_infusions": []
+    },
+    "fishing_tank_silver": {
+        "possible_infusions": []
+    },
+    "fishing_tank_gold": {
+        "possible_infusions": []
+    },
+    "picnic_basket_pink": {
+        "possible_infusions": []
+    },
+    "picnic_basket_yellow": {
+        "possible_infusions": []
+    },
+    "picnic_basket_red": {
+        "possible_infusions": []
+    },
+    "picnic_pie_plate_pink": {
+        "possible_infusions": []
+    },
+    "picnic_pie_plate_red": {
+        "possible_infusions": []
+    },
+    "picnic_pie_plate_yellow": {
+        "possible_infusions": []
+    },
+    "picnic_place_setting_red": {
+        "possible_infusions": []
+    },
+    "picnic_place_setting_yellow": {
+        "possible_infusions": []
+    },
+    "picnic_place_setting_pink": {
+        "possible_infusions": []
+    },
+    "picnic_rug_red": {
+        "possible_infusions": []
+    },
+    "picnic_rug_yellow": {
+        "possible_infusions": []
+    },
+    "picnic_rug_pink": {
+        "possible_infusions": []
+    },
+    "picnic_donut_plate": {
+        "possible_infusions": []
+    },
+    "picnic_hamburger_plate": {
+        "possible_infusions": []
+    },
+    "picnic_sandwich_plate": {
+        "possible_infusions": []
+    },
+    "picnic_sunflower_vase_pink": {
+        "possible_infusions": []
+    },
+    "picnic_sunflower_vase_red": {
+        "possible_infusions": []
+    },
+    "picnic_sunflower_vase_yellow": {
+        "possible_infusions": []
+    },
+    "cavern_crystal_lamp_green": {
+        "possible_infusions": []
+    },
+    "cavern_mushroom_stool_green": {
+        "possible_infusions": []
+    },
+    "cavern_crystal_lamp_pink": {
+        "possible_infusions": []
+    },
+    "cavern_mushroom_stool_pink": {
+        "possible_infusions": []
+    },
+    "cavern_crystal_lamp_purple": {
+        "possible_infusions": []
+    },
+    "cavern_mushroom_stool_purple": {
+        "possible_infusions": []
+    },
+    "cavern_emerald_rock": {
+        "possible_infusions": []
+    },
+    "cavern_silver_node": {
+        "possible_infusions": []
+    },
+    "cavern_hewn_rock_bookshelf": {
+        "possible_infusions": []
+    },
+    "cavern_hewn_rock_table": {
+        "possible_infusions": []
+    },
+    "cavern_stone_arch": {
+        "possible_infusions": []
+    },
+    "cavern_wall_brazier_purple": {
+        "possible_infusions": []
+    },
+    "cavern_wall_brazier_orange": {
+        "possible_infusions": []
+    },
+    "cavern_wall_brazier_blue": {
+        "possible_infusions": []
+    },
+    "cavern_floor_brazier_purple": {
+        "possible_infusions": []
+    },
+    "cavern_floor_brazier_blue": {
+        "possible_infusions": []
+    },
+    "cavern_floor_brazier_orange": {
+        "possible_infusions": []
+    },
+    "cavern_mossy_rug_v1": {
+        "possible_infusions": []
+    },
+    "cavern_mossy_rug_v2": {
+        "possible_infusions": []
+    },
+    "cavern_rock_wallpaper": {
+        "possible_infusions": []
+    },
+    "cavern_rock_flooring": {
+        "possible_infusions": []
+    },
+    "explorer_flooring_beige": {
+        "possible_infusions": []
+    },
+    "explorer_flooring_brown": {
+        "possible_infusions": []
+    },
+    "explorer_flooring_green": {
+        "possible_infusions": []
+    },
+    "explorer_wallpaper_beige": {
+        "possible_infusions": []
+    },
+    "explorer_wallpaper_brown": {
+        "possible_infusions": []
+    },
+    "explorer_wallpaper_green": {
+        "possible_infusions": []
+    },
+    "explorer_bed_beige": {
+        "possible_infusions": []
+    },
+    "explorer_double_bed_beige": {
+        "possible_infusions": []
+    },
+    "explorer_chair_beige": {
+        "possible_infusions": []
+    },
+    "explorer_globe_beige": {
+        "possible_infusions": []
+    },
+    "explorer_lamp_beige": {
+        "possible_infusions": []
+    },
+    "explorer_rug_beige": {
+        "possible_infusions": []
+    },
+    "explorer_trunk_table_beige": {
+        "possible_infusions": []
+    },
+    "explorer_bed_brown": {
+        "possible_infusions": []
+    },
+    "explorer_double_bed_brown": {
+        "possible_infusions": []
+    },
+    "explorer_chair_brown": {
+        "possible_infusions": []
+    },
+    "explorer_globe_brown": {
+        "possible_infusions": []
+    },
+    "explorer_lamp_brown": {
+        "possible_infusions": []
+    },
+    "explorer_rug_brown": {
+        "possible_infusions": []
+    },
+    "explorer_trunk_table_brown": {
+        "possible_infusions": []
+    },
+    "explorer_bed_green": {
+        "possible_infusions": []
+    },
+    "explorer_double_bed_green": {
+        "possible_infusions": []
+    },
+    "explorer_chair_green": {
+        "possible_infusions": []
+    },
+    "explorer_globe_green": {
+        "possible_infusions": []
+    },
+    "explorer_lamp_green": {
+        "possible_infusions": []
+    },
+    "explorer_rug_green": {
+        "possible_infusions": []
+    },
+    "explorer_trunk_table_green": {
+        "possible_infusions": []
+    },
+    "basic_area_rug_yellow": {
+        "possible_infusions": []
+    },
+    "basic_area_rug_green": {
+        "possible_infusions": []
+    },
+    "basic_bed_oak": {
+        "possible_infusions": []
+    },
+    "basic_bed_walnut": {
+        "possible_infusions": []
+    },
+    "basic_bookshelf_oak": {
+        "possible_infusions": []
+    },
+    "basic_bookshelf_walnut": {
+        "possible_infusions": []
+    },
+    "basic_chair_oak": {
+        "possible_infusions": []
+    },
+    "basic_chair_walnut": {
+        "possible_infusions": []
+    },
+    "basic_doormat_yellow": {
+        "possible_infusions": []
+    },
+    "basic_doormat_green": {
+        "possible_infusions": []
+    },
+    "basic_bed_double_oak": {
+        "possible_infusions": []
+    },
+    "basic_bed_double_walnut": {
+        "possible_infusions": []
+    },
+    "basic_dresser_oak": {
+        "possible_infusions": []
+    },
+    "basic_dresser_walnut": {
+        "possible_infusions": []
+    },
+    "basic_flooring_oak": {
+        "possible_infusions": []
+    },
+    "basic_flooring_walnut": {
+        "possible_infusions": []
+    },
+    "basic_flower_pot_orange": {
+        "possible_infusions": []
+    },
+    "basic_flower_pot_white": {
+        "possible_infusions": []
+    },
+    "basic_nightstand_oak": {
+        "possible_infusions": []
+    },
+    "basic_nightstand_walnut": {
+        "possible_infusions": []
+    },
+    "basic_oil_lamp_grey": {
+        "possible_infusions": []
+    },
+    "basic_oil_lamp_yellow": {
+        "possible_infusions": []
+    },
+    "basic_table_oak": {
+        "possible_infusions": []
+    },
+    "basic_table_walnut": {
+        "possible_infusions": []
+    },
+    "basic_wall_window_oak": {
+        "possible_infusions": []
+    },
+    "basic_wall_window_walnut": {
+        "possible_infusions": []
+    },
+    "basic_wallpaper_oak": {
+        "possible_infusions": []
+    },
+    "basic_wallpaper_walnut": {
+        "possible_infusions": []
+    },
+    "insect_flooring_v1": {
+        "possible_infusions": []
+    },
+    "insect_wallpaper_v1": {
+        "possible_infusions": []
+    },
+    "butterfly_bed_v1": {
+        "possible_infusions": []
+    },
+    "butterfly_double_bed_v1": {
+        "possible_infusions": []
+    },
+    "ladybug_table_v1": {
+        "possible_infusions": []
+    },
+    "moth_lamp_v1": {
+        "possible_infusions": []
+    },
+    "caterpillar_chair_v1": {
+        "possible_infusions": []
+    },
+    "insect_rug_v1": {
+        "possible_infusions": []
+    },
+    "insect_flooring_v2": {
+        "possible_infusions": []
+    },
+    "insect_wallpaper_v2": {
+        "possible_infusions": []
+    },
+    "butterfly_bed_v2": {
+        "possible_infusions": []
+    },
+    "butterfly_double_bed_v2": {
+        "possible_infusions": []
+    },
+    "ladybug_table_v2": {
+        "possible_infusions": []
+    },
+    "moth_lamp_v2": {
+        "possible_infusions": []
+    },
+    "caterpillar_chair_v2": {
+        "possible_infusions": []
+    },
+    "insect_rug_v2": {
+        "possible_infusions": []
+    },
+    "insect_flooring_v3": {
+        "possible_infusions": []
+    },
+    "insect_wallpaper_v3": {
+        "possible_infusions": []
+    },
+    "butterfly_bed_v3": {
+        "possible_infusions": []
+    },
+    "butterfly_double_bed_v3": {
+        "possible_infusions": []
+    },
+    "ladybug_table_v3": {
+        "possible_infusions": []
+    },
+    "moth_lamp_v3": {
+        "possible_infusions": []
+    },
+    "caterpillar_chair_v3": {
+        "possible_infusions": []
+    },
+    "insect_rug_v3": {
+        "possible_infusions": []
+    },
+    "bakery_bread_basket_pastel": {
+        "possible_infusions": []
+    },
+    "bakery_bread_basket_coffee": {
+        "possible_infusions": []
+    },
+    "bakery_cake_case_pastel": {
+        "possible_infusions": []
+    },
+    "bakery_cake_case_coffee": {
+        "possible_infusions": []
+    },
+    "bakery_cake_slice_pastel": {
+        "possible_infusions": []
+    },
+    "bakery_cake_slice_coffee": {
+        "possible_infusions": []
+    },
+    "bakery_cake_pastel": {
+        "possible_infusions": []
+    },
+    "bakery_cake_coffee": {
+        "possible_infusions": []
+    },
+    "bakery_cookie_jar_pastel": {
+        "possible_infusions": []
+    },
+    "bakery_cookie_jar_coffee": {
+        "possible_infusions": []
+    },
+    "bakery_cutting_board_pastel": {
+        "possible_infusions": []
+    },
+    "bakery_cutting_board_coffee": {
+        "possible_infusions": []
+    },
+    "ornate_rug_small_red": {
+        "possible_infusions": []
+    },
+    "ornate_rug_medium_round_red": {
+        "possible_infusions": []
+    },
+    "ornate_rug_medium_square_red": {
+        "possible_infusions": []
+    },
+    "ornate_rug_large_round_red": {
+        "possible_infusions": []
+    },
+    "ornate_rug_large_square_red": {
+        "possible_infusions": []
+    },
+    "ornate_rug_large_rectangle_red": {
+        "possible_infusions": []
+    },
+    "ornate_rug_small_blue": {
+        "possible_infusions": []
+    },
+    "ornate_rug_medium_round_blue": {
+        "possible_infusions": []
+    },
+    "ornate_rug_medium_square_blue": {
+        "possible_infusions": []
+    },
+    "ornate_rug_large_round_blue": {
+        "possible_infusions": []
+    },
+    "ornate_rug_large_square_blue": {
+        "possible_infusions": []
+    },
+    "ornate_rug_large_rectangle_blue": {
+        "possible_infusions": []
+    },
+    "ornate_rug_small_cream": {
+        "possible_infusions": []
+    },
+    "ornate_rug_medium_round_cream": {
+        "possible_infusions": []
+    },
+    "ornate_rug_medium_square_cream": {
+        "possible_infusions": []
+    },
+    "ornate_rug_large_round_cream": {
+        "possible_infusions": []
+    },
+    "ornate_rug_large_square_cream": {
+        "possible_infusions": []
+    },
+    "ornate_rug_large_rectangle_cream": {
+        "possible_infusions": []
+    },
+    "lovely_cottage_scroll_bundle": {
+        "possible_infusions": []
+    },
+    "cottage_bed_oak": {
+        "possible_infusions": []
+    },
+    "cottage_bed_ash": {
+        "possible_infusions": []
+    },
+    "cottage_chair_oak": {
+        "possible_infusions": []
+    },
+    "cottage_chair_ash": {
+        "possible_infusions": []
+    },
+    "cottage_bed_double_oak": {
+        "possible_infusions": []
+    },
+    "cottage_bed_double_ash": {
+        "possible_infusions": []
+    },
+    "cottage_dresser_oak": {
+        "possible_infusions": []
+    },
+    "cottage_dresser_ash": {
+        "possible_infusions": []
+    },
+    "cottage_flooring_oak": {
+        "possible_infusions": []
+    },
+    "cottage_flooring_ash": {
+        "possible_infusions": []
+    },
+    "cottage_nightstand_oak": {
+        "possible_infusions": []
+    },
+    "cottage_nightstand_ash": {
+        "possible_infusions": []
+    },
+    "cottage_plant_shelf_oak": {
+        "possible_infusions": []
+    },
+    "cottage_plant_shelf_ash": {
+        "possible_infusions": []
+    },
+    "cottage_potted_fig_oak": {
+        "possible_infusions": []
+    },
+    "cottage_potted_fig_ash": {
+        "possible_infusions": []
+    },
+    "cottage_rug_oak": {
+        "possible_infusions": []
+    },
+    "cottage_rug_ash": {
+        "possible_infusions": []
+    },
+    "cottage_table_oak": {
+        "possible_infusions": []
+    },
+    "cottage_table_ash": {
+        "possible_infusions": []
+    },
+    "cottage_wall_flowers_oak": {
+        "possible_infusions": []
+    },
+    "cottage_wall_flowers_ash": {
+        "possible_infusions": []
+    },
+    "cottage_wall_window_oak": {
+        "possible_infusions": []
+    },
+    "cottage_wall_window_ash": {
+        "possible_infusions": []
+    },
+    "cottage_wallpaper_oak": {
+        "possible_infusions": []
+    },
+    "cottage_wallpaper_ash": {
+        "possible_infusions": []
+    },
+    "mines_wooden_arch": {
+        "possible_infusions": []
+    },
+    "miners_copper_node": {
+        "possible_infusions": []
+    },
+    "miners_ruby_rock": {
+        "possible_infusions": []
+    },
+    "miners_minecart_v1": {
+        "possible_infusions": []
+    },
+    "miners_minecart_v2": {
+        "possible_infusions": []
+    },
+    "miners_crate_chair_v1": {
+        "possible_infusions": []
+    },
+    "miners_crate_chair_v2": {
+        "possible_infusions": []
+    },
+    "miners_crate_chest_v1": {
+        "possible_infusions": []
+    },
+    "miners_crate_chest_v2": {
+        "possible_infusions": []
+    },
+    "miners_floor_lamp_v1": {
+        "possible_infusions": []
+    },
+    "miners_floor_lamp_v2": {
+        "possible_infusions": []
+    },
+    "miners_wall_lamp_v1": {
+        "possible_infusions": []
+    },
+    "miners_wall_lamp_v2": {
+        "possible_infusions": []
+    },
+    "miners_shelves_v1": {
+        "possible_infusions": []
+    },
+    "miners_shelves_v2": {
+        "possible_infusions": []
+    },
+    "miners_flooring": {
+        "possible_infusions": []
+    },
+    "miners_wallpaper": {
+        "possible_infusions": []
+    },
+    "witch_queen_flooring": {
+        "possible_infusions": []
+    },
+    "witch_queen_wallpaper": {
+        "possible_infusions": []
+    },
+    "witch_queen_bed": {
+        "possible_infusions": []
+    },
+    "witch_queen_double_bed": {
+        "possible_infusions": []
+    },
+    "witch_queen_cauldron": {
+        "possible_infusions": []
+    },
+    "witch_queen_chair": {
+        "possible_infusions": []
+    },
+    "witch_queen_dressing_table": {
+        "possible_infusions": []
+    },
+    "witch_queen_moon_lamp": {
+        "possible_infusions": []
+    },
+    "witch_queen_nightstand": {
+        "possible_infusions": []
+    },
+    "witch_queen_pillar": {
+        "possible_infusions": []
+    },
+    "witch_queen_rug": {
+        "possible_infusions": []
+    },
+    "witch_queen_table": {
+        "possible_infusions": []
+    },
+    "witch_queen_throne": {
+        "possible_infusions": []
+    },
+    "spring_crop_sign_scroll_bundle": {
+        "possible_infusions": []
+    },
+    "summer_crop_sign_scroll_bundle": {
+        "possible_infusions": []
+    },
+    "fall_crop_sign_scroll_bundle": {
+        "possible_infusions": []
+    },
+    "winter_crop_sign_scroll_bundle": {
+        "possible_infusions": []
+    },
+    "crop_sign_cabbage": {
+        "possible_infusions": []
+    },
+    "crop_sign_carrot": {
+        "possible_infusions": []
+    },
+    "crop_sign_cauliflower": {
+        "possible_infusions": []
+    },
+    "purse": {
+        "possible_infusions": []
+    },
+    "crop_sign_chickpea": {
+        "possible_infusions": []
+    },
+    "crop_sign_daffodil": {
+        "possible_infusions": []
+    },
+    "crop_sign_lilac": {
+        "possible_infusions": []
+    },
+    "crop_sign_peas": {
+        "possible_infusions": []
+    },
+    "crop_sign_potato": {
+        "possible_infusions": []
+    },
+    "crop_sign_snowdrop_anemone": {
+        "possible_infusions": []
+    },
+    "crop_sign_strawberry": {
+        "possible_infusions": []
+    },
+    "crop_sign_tulip": {
+        "possible_infusions": []
+    },
+    "crop_sign_turnip": {
+        "possible_infusions": []
+    },
+    "crop_sign_cherry": {
+        "possible_infusions": []
+    },
+    "crop_sign_lemon": {
+        "possible_infusions": []
+    },
+    "crop_sign_basil": {
+        "possible_infusions": []
+    },
+    "crop_sign_catmint": {
+        "possible_infusions": []
+    },
+    "crop_sign_chili_pepper": {
+        "possible_infusions": []
+    },
+    "crop_sign_corn": {
+        "possible_infusions": []
+    },
+    "crop_sign_cosmos": {
+        "possible_infusions": []
+    },
+    "crop_sign_cucumber": {
+        "possible_infusions": []
+    },
+    "crop_sign_daisy": {
+        "possible_infusions": []
+    },
+    "crop_sign_dill": {
+        "possible_infusions": []
+    },
+    "crop_sign_iris": {
+        "possible_infusions": []
+    },
+    "crop_sign_marigold": {
+        "possible_infusions": []
+    },
+    "crop_sign_night_queen": {
+        "possible_infusions": []
+    },
+    "crop_sign_oregano": {
+        "possible_infusions": []
+    },
+    "crop_sign_sage": {
+        "possible_infusions": []
+    },
+    "crop_sign_sunflower": {
+        "possible_infusions": []
+    },
+    "crop_sign_thyme": {
+        "possible_infusions": []
+    },
+    "crop_sign_tomato": {
+        "possible_infusions": []
+    },
+    "crop_sign_watermelon": {
+        "possible_infusions": []
+    },
+    "crop_sign_coconut": {
+        "possible_infusions": []
+    },
+    "crop_sign_peach": {
+        "possible_infusions": []
+    },
+    "crop_sign_pear": {
+        "possible_infusions": []
+    },
+    "crop_sign_broccoli": {
+        "possible_infusions": []
+    },
+    "crop_sign_celosia": {
+        "possible_infusions": []
+    },
+    "crop_sign_chrysanthemum": {
+        "possible_infusions": []
+    },
+    "crop_sign_cranberry": {
+        "possible_infusions": []
+    },
+    "crop_sign_pumpkin": {
+        "possible_infusions": []
+    },
+    "crop_sign_sweet_potato": {
+        "possible_infusions": []
+    },
+    "crop_sign_apple": {
+        "possible_infusions": []
+    },
+    "crop_sign_pomegranate": {
+        "possible_infusions": []
+    },
+    "crop_sign_sugar_cane": {
+        "possible_infusions": []
+    },
+    "crop_sign_tea": {
+        "possible_infusions": []
+    },
+    "crop_sign_garlic": {
+        "possible_infusions": []
+    },
+    "crop_sign_heather": {
+        "possible_infusions": []
+    },
+    "crop_sign_moon_fruit": {
+        "possible_infusions": []
+    },
+    "crop_sign_onion": {
+        "possible_infusions": []
+    },
+    "crop_sign_orange": {
+        "possible_infusions": []
+    },
+    "crop_sign_rice": {
+        "possible_infusions": []
+    },
+    "crop_sign_rosemary": {
+        "possible_infusions": []
+    },
+    "crop_sign_viola": {
+        "possible_infusions": []
+    },
+    "crop_sign_wheat": {
+        "possible_infusions": []
+    },
+    "crop_sign_beet": {
+        "possible_infusions": []
+    },
+    "crop_sign_burdock_root": {
+        "possible_infusions": []
+    },
+    "crop_sign_daikon_radish": {
+        "possible_infusions": []
+    },
+    "crop_sign_frost_lily": {
+        "possible_infusions": []
+    },
+    "crop_sign_jasmine": {
+        "possible_infusions": []
+    },
+    "crop_sign_poinsettia": {
+        "possible_infusions": []
+    },
+    "crop_sign_snapdragon": {
+        "possible_infusions": []
+    },
+    "crop_sign_snow_peas": {
+        "possible_infusions": []
+    },
+    "spring_festival_planter": {
+        "possible_infusions": []
+    },
+    "spring_festival_large_planter": {
+        "possible_infusions": []
+    },
+    "spring_festival_basket": {
+        "possible_infusions": []
+    },
+    "spring_festival_flower_chest": {
+        "possible_infusions": []
+    },
+    "spring_festival_wreath": {
+        "possible_infusions": []
+    },
+    "spring_festival_breath_of_spring_wreath": {
+        "possible_infusions": []
+    },
+    "worn_bed": {
+        "possible_infusions": []
+    },
+    "worn_chair": {
+        "possible_infusions": []
+    },
+    "worn_fireplace": {
+        "possible_infusions": []
+    },
+    "worn_nightstand": {
+        "possible_infusions": []
+    },
+    "worn_table": {
+        "possible_infusions": []
+    },
+    "worn_window": {
+        "possible_infusions": []
+    },
+    "worn_wallpaper": {
+        "possible_infusions": []
+    },
+    "worn_flooring": {
+        "possible_infusions": []
+    },
+    "worn_well": {
+        "possible_infusions": []
+    },
+    "worn_garden_lamp": {
+        "possible_infusions": []
+    },
+    "worn_rug": {
+        "possible_infusions": []
+    },
+    "mistria_wall_map_v1": {
+        "possible_infusions": []
+    },
+    "mistria_history_book_v1": {
+        "possible_infusions": []
+    },
+    "ornate_flagstone_v1": {
+        "possible_infusions": []
+    },
+    "dragon_priestess_fountain_v1": {
+        "possible_infusions": []
+    },
+    "stone_dragon_figure_v1": {
+        "possible_infusions": []
+    },
+    "ornate_flagstone_v2": {
+        "possible_infusions": []
+    },
+    "dragon_priestess_fountain_v2": {
+        "possible_infusions": []
+    },
+    "stone_dragon_figure_v2": {
+        "possible_infusions": []
+    },
+    "ornate_flagstone_v3": {
+        "possible_infusions": []
+    },
+    "dragon_priestess_fountain_v3": {
+        "possible_infusions": []
+    },
+    "stone_dragon_figure_v3": {
+        "possible_infusions": []
+    },
+    "dragon_statue_replica_v1": {
+        "possible_infusions": []
+    },
+    "dragon_statue_replica_v2": {
+        "possible_infusions": []
+    },
+    "mistria_history_scroll_v1": {
+        "possible_infusions": []
+    },
+    "summer_bed_yellow": {
+        "possible_infusions": []
+    },
+    "summer_chair_yellow": {
+        "possible_infusions": []
+    },
+    "summer_double_bed_yellow": {
+        "possible_infusions": []
+    },
+    "summer_flooring_yellow": {
+        "possible_infusions": []
+    },
+    "summer_jar_lamp_yellow": {
+        "possible_infusions": []
+    },
+    "summer_rug_yellow": {
+        "possible_infusions": []
+    },
+    "summer_table_yellow": {
+        "possible_infusions": []
+    },
+    "summer_wallpaper_yellow": {
+        "possible_infusions": []
+    },
+    "summer_bed_red": {
+        "possible_infusions": []
+    },
+    "summer_chair_red": {
+        "possible_infusions": []
+    },
+    "summer_double_bed_red": {
+        "possible_infusions": []
+    },
+    "summer_flooring_red": {
+        "possible_infusions": []
+    },
+    "summer_jar_lamp_red": {
+        "possible_infusions": []
+    },
+    "summer_rug_red": {
+        "possible_infusions": []
+    },
+    "summer_table_red": {
+        "possible_infusions": []
+    },
+    "summer_wallpaper_red": {
+        "possible_infusions": []
+    },
+    "stone_table_v1": {
+        "possible_infusions": []
+    },
+    "stone_lamp_v1": {
+        "possible_infusions": []
+    },
+    "stone_bench_v1": {
+        "possible_infusions": []
+    },
+    "large_paving_stone_v1": {
+        "possible_infusions": []
+    },
+    "stone_storage_chest_v1": {
+        "possible_infusions": []
+    },
+    "stone_table_v2": {
+        "possible_infusions": []
+    },
+    "stone_lamp_v2": {
+        "possible_infusions": []
+    },
+    "stone_bench_v2": {
+        "possible_infusions": []
+    },
+    "large_paving_stone_v2": {
+        "possible_infusions": []
+    },
+    "stone_storage_chest_v2": {
+        "possible_infusions": []
+    },
+    "stone_table_v3": {
+        "possible_infusions": []
+    },
+    "stone_lamp_v3": {
+        "possible_infusions": []
+    },
+    "stone_bench_v3": {
+        "possible_infusions": []
+    },
+    "large_paving_stone_v3": {
+        "possible_infusions": []
+    },
+    "stone_storage_chest_v3": {
+        "possible_infusions": []
+    },
+    "chess_scroll_bundle": {
+        "possible_infusions": []
+    },
+    "recipe_scroll": {
+        "possible_infusions": []
+    },
+    "chess_pawn_white": {
+        "possible_infusions": []
+    },
+    "chess_rook_white": {
+        "possible_infusions": []
+    },
+    "chess_knight_white": {
+        "possible_infusions": []
+    },
+    "chess_bishop_white": {
+        "possible_infusions": []
+    },
+    "chess_queen_white": {
+        "possible_infusions": []
+    },
+    "chess_king_white": {
+        "possible_infusions": []
+    },
+    "chess_pawn_black": {
+        "possible_infusions": []
+    },
+    "chess_rook_black": {
+        "possible_infusions": []
+    },
+    "chess_knight_black": {
+        "possible_infusions": []
+    },
+    "chess_bishop_black": {
+        "possible_infusions": []
+    },
+    "chess_queen_black": {
+        "possible_infusions": []
+    },
+    "chess_king_black": {
+        "possible_infusions": []
+    },
+    "chess_pawn_light_wood": {
+        "possible_infusions": []
+    },
+    "chess_rook_light_wood": {
+        "possible_infusions": []
+    },
+    "chess_knight_light_wood": {
+        "possible_infusions": []
+    },
+    "chess_bishop_light_wood": {
+        "possible_infusions": []
+    },
+    "chess_queen_light_wood": {
+        "possible_infusions": []
+    },
+    "chess_king_light_wood": {
+        "possible_infusions": []
+    },
+    "chess_pawn_purple": {
+        "possible_infusions": []
+    },
+    "chess_rook_purple": {
+        "possible_infusions": []
+    },
+    "chess_knight_purple": {
+        "possible_infusions": []
+    },
+    "chess_bishop_purple": {
+        "possible_infusions": []
+    },
+    "chess_queen_purple": {
+        "possible_infusions": []
+    },
+    "chess_king_purple": {
+        "possible_infusions": []
+    },
+    "chess_table_white": {
+        "possible_infusions": []
+    },
+    "chess_table_black": {
+        "possible_infusions": []
+    },
+    "chess_table_light_wood": {
+        "possible_infusions": []
+    },
+    "chess_table_purple": {
+        "possible_infusions": []
+    },
+    "coral_lamp_blue": {
+        "possible_infusions": []
+    },
+    "coral_chair_blue": {
+        "possible_infusions": []
+    },
+    "coral_table_blue": {
+        "possible_infusions": []
+    },
+    "coral_storage_chest_blue": {
+        "possible_infusions": []
+    },
+    "coral_lamp_purple": {
+        "possible_infusions": []
+    },
+    "coral_chair_purple": {
+        "possible_infusions": []
+    },
+    "coral_table_purple": {
+        "possible_infusions": []
+    },
+    "coral_storage_chest_purple": {
+        "possible_infusions": []
+    },
+    "sand_rug": {
+        "possible_infusions": []
+    },
+    "low_tide_flooring": {
+        "possible_infusions": []
+    },
+    "tide_touched_cavern_wall": {
+        "possible_infusions": []
+    },
+    "ornamental_iron_node": {
+        "possible_infusions": []
+    },
+    "ornamental_sapphire_rock": {
+        "possible_infusions": []
+    },
+    "coral_stone_archway": {
+        "possible_infusions": []
+    },
+    "cottage_garden_planter_v1": {
+        "possible_infusions": []
+    },
+    "cottage_garden_planter_v2": {
+        "possible_infusions": []
+    },
+    "cottage_garden_planter_v3": {
+        "possible_infusions": []
+    },
+    "cottage_garden_trellis_v1": {
+        "possible_infusions": []
+    },
+    "cottage_garden_trellis_v2": {
+        "possible_infusions": []
+    },
+    "cottage_garden_trellis_v3": {
+        "possible_infusions": []
+    },
+    "cottage_garden_workbench_v1": {
+        "possible_infusions": []
+    },
+    "cottage_garden_workbench_v2": {
+        "possible_infusions": []
+    },
+    "cottage_garden_arch_v1": {
+        "possible_infusions": []
+    },
+    "cottage_garden_arch_v2": {
+        "possible_infusions": []
+    },
+    "cottage_garden_shed_v1": {
+        "possible_infusions": []
+    },
+    "cottage_garden_shed_v2": {
+        "possible_infusions": []
+    },
+    "gold_ingot": {
+        "possible_infusions": []
+    },
+    "mistril_ingot": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "axe_worn": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "fishing_rod_worn": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "hoe_worn": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "net_worn": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "pick_axe_worn": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "shovel_worn": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "watering_can_worn": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "axe_copper": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "fishing_rod_copper": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "hoe_copper": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "net_copper": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "pick_axe_copper": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "shovel_copper": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "watering_can_copper": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "axe_iron": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "fishing_rod_iron": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "hoe_iron": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "net_iron": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "pick_axe_iron": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "shovel_iron": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "watering_can_iron": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "watering_can_silver": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "axe_silver": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "fishing_rod_silver": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "hoe_silver": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "net_silver": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "pick_axe_silver": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "shovel_silver": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "axe_gold": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "fishing_rod_gold": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "hoe_gold": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "net_gold": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "pick_axe_gold": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "shovel_gold": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "watering_can_gold": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "axe_mistril": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "fishing_rod_mistril": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "hoe_mistril": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "net_mistril": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "pick_axe_mistril": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "shovel_mistril": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "watering_can_mistril": {
+        "possible_infusions": [
+            "lightweight"
+        ]
+    },
+    "sword_worn": {
+        "possible_infusions": [
+            "leeching",
+            "sharp"
+        ]
+    },
+    "sword_scrap_metal": {
+        "possible_infusions": [
+            "leeching",
+            "sharp"
+        ]
+    },
+    "sword_copper": {
+        "possible_infusions": [
+            "leeching",
+            "sharp"
+        ]
+    },
+    "sword_verdigris": {
+        "possible_infusions": [
+            "leeching",
+            "sharp"
+        ]
+    },
+    "sword_iron": {
+        "possible_infusions": [
+            "leeching",
+            "sharp"
+        ]
+    },
+    "sword_crystal": {
+        "possible_infusions": [
+            "leeching",
+            "sharp"
+        ]
+    },
+    "sword_silver": {
+        "possible_infusions": [
+            "leeching",
+            "sharp"
+        ]
+    },
+    "sword_gold": {
+        "possible_infusions": [
+            "leeching",
+            "sharp"
+        ]
+    },
+    "sword_mistril": {
+        "possible_infusions": [
+            "leeching",
+            "sharp"
+        ]
+    },
+    "ritual_incense_burner": {
+        "possible_infusions": []
+    },
+    "ritual_beads": {
+        "possible_infusions": []
+    },
+    "ritual_chalice": {
+        "possible_infusions": []
+    },
+    "ritual_scepter": {
+        "possible_infusions": []
+    },
+    "ritual_tablet": {
+        "possible_infusions": []
+    },
+    "perfect_copper_ore": {
+        "possible_infusions": []
+    },
+    "perfect_iron_ore": {
+        "possible_infusions": []
+    },
+    "perfect_silver_ore": {
+        "possible_infusions": []
+    },
+    "perfect_gold_ore": {
+        "possible_infusions": []
+    },
+    "perfect_mistril_ore": {
+        "possible_infusions": []
+    },
+    "perfect_ruby": {
+        "possible_infusions": []
+    },
+    "perfect_sapphire": {
+        "possible_infusions": []
+    },
+    "perfect_emerald": {
+        "possible_infusions": []
+    },
+    "perfect_diamond": {
+        "possible_infusions": []
+    },
+    "perfect_pink_diamond": {
+        "possible_infusions": []
+    },
+    "tiny_dinosaur_skeleton": {
+        "possible_infusions": []
+    },
+    "trilobite_fossil": {
+        "possible_infusions": []
+    },
+    "meteorite": {
+        "possible_infusions": []
+    },
+    "fossilized_egg": {
+        "possible_infusions": []
+    },
+    "amber_trapped_insect": {
+        "possible_infusions": []
+    },
+    "dragon_claw": {
+        "possible_infusions": []
+    },
+    "dragon_forged_bracelet": {
+        "possible_infusions": []
+    },
+    "dragon_pact_tablet": {
+        "possible_infusions": []
+    },
+    "dragon_scale": {
+        "possible_infusions": []
+    },
+    "hardened_essence": {
+        "possible_infusions": []
+    },
+    "ancient_crystal_goblet": {
+        "possible_infusions": []
+    },
+    "ancient_gold_coin": {
+        "possible_infusions": []
+    },
+    "ancient_horn_circlet": {
+        "possible_infusions": []
+    },
+    "ancient_royal_scepter": {
+        "possible_infusions": []
+    },
+    "ancient_stone_lantern": {
+        "possible_infusions": []
+    },
+    "alda_bronze_sword": {
+        "possible_infusions": []
+    },
+    "alda_clay_pot": {
+        "possible_infusions": []
+    },
+    "ore_stone": {
+        "possible_infusions": []
+    },
+    "alda_feather_pendant": {
+        "possible_infusions": []
+    },
+    "basic_wood": {
+        "possible_infusions": []
+    },
+    "alda_gem_bracelet": {
+        "possible_infusions": []
+    },
+    "alda_mural_tablet": {
+        "possible_infusions": []
+    },
+    "copper_ingot": {
+        "possible_infusions": []
+    },
+    "statuette_of_caldarus": {
+        "possible_infusions": []
+    },
+    "iron_ingot": {
+        "possible_infusions": []
+    },
+    "caldosian_breastplate": {
+        "possible_infusions": []
+    },
+    "caldosian_drinking_horn": {
+        "possible_infusions": []
+    },
+    "caldosian_emperor_bust": {
+        "possible_infusions": []
+    },
+    "caldosian_sword": {
+        "possible_infusions": []
+    },
+    "lost_crown_of_aldaria": {
+        "possible_infusions": []
+    },
+    "family_crest_pendant": {
+        "possible_infusions": []
+    },
+    "aldarian_sword": {
+        "possible_infusions": []
+    },
+    "aldarian_war_banner": {
+        "possible_infusions": []
+    },
+    "aldarian_gauntlet": {
+        "possible_infusions": []
+    },
+    "unknown_dragon_statuette": {
+        "possible_infusions": []
+    },
+    "weightless_stone": {
+        "possible_infusions": []
+    },
+    "muttering_cube": {
+        "possible_infusions": []
+    },
+    "completely_wrong_map": {
+        "possible_infusions": []
+    },
+    "black_tablet": {
+        "possible_infusions": []
+    },
+    "obsidian_blade": {
+        "possible_infusions": []
+    },
+    "stone_horse": {
+        "possible_infusions": []
+    },
+    "shortcut_scroll": {
+        "possible_infusions": []
+    },
+    "flint_arrowhead": {
+        "possible_infusions": []
+    },
+    "diamond_backed_mirror": {
+        "possible_infusions": []
+    },
+    "petrified_wood": {
+        "possible_infusions": []
+    },
+    "metal_leaf": {
+        "possible_infusions": []
+    },
+    "fossilized_mandrake_root": {
+        "possible_infusions": []
+    },
+    "gathering_basket": {
+        "possible_infusions": []
+    },
+    "crystal_apple": {
+        "possible_infusions": []
+    },
+    "vintage_watering_can": {
+        "possible_infusions": []
+    },
+    "vintage_hammer": {
+        "possible_infusions": []
+    },
+    "vintage_sickle": {
+        "possible_infusions": []
+    },
+    "vintage_brush": {
+        "possible_infusions": []
+    },
+    "vintage_cow_bell": {
+        "possible_infusions": []
+    },
+    "sap": {
+        "possible_infusions": []
+    },
+    "monster_fang": {
+        "possible_infusions": []
+    },
+    "red_toadstool": {
+        "possible_infusions": []
+    },
+    "wild_mushroom": {
+        "possible_infusions": []
+    },
+    "glowing_mushroom": {
+        "possible_infusions": []
+    },
+    "monster_powder": {
+        "possible_infusions": []
+    },
+    "monster_shell": {
+        "possible_infusions": []
+    },
+    "monster_core": {
+        "possible_infusions": []
+    },
+    "monster_horn": {
+        "possible_infusions": []
+    },
+    "essence_drop": {
+        "possible_infusions": []
+    },
+    "monster_wing": {
+        "possible_infusions": []
+    },
+    "monster_hoop": {
+        "possible_infusions": []
+    },
+    "star_shaped_cookie": {
+        "possible_infusions": []
+    },
+    "blackberry_jam": {
+        "possible_infusions": []
+    },
+    "blueberry_jam": {
+        "possible_infusions": []
+    },
+    "bread": {
+        "possible_infusions": []
+    },
+    "noodles": {
+        "possible_infusions": []
+    },
+    "rosehip_jam": {
+        "possible_infusions": []
+    },
+    "wild_berry_jam": {
+        "possible_infusions": []
+    },
+    "marmalade": {
+        "possible_infusions": []
+    },
+    "canned_sardines": {
+        "possible_infusions": []
+    },
+    "crunchy_chickpeas": {
+        "possible_infusions": []
+    },
+    "deviled_eggs": {
+        "possible_infusions": []
+    },
+    "dried_squid": {
+        "possible_infusions": []
+    },
+    "hard_boiled_egg": {
+        "possible_infusions": []
+    },
+    "pineshroom_toast": {
+        "possible_infusions": []
+    },
+    "roasted_chestnuts": {
+        "possible_infusions": []
+    },
+    "spicy_cheddar_biscuit": {
+        "possible_infusions": []
+    },
+    "spicy_water_chestnuts": {
+        "possible_infusions": []
+    },
+    "toasted_sunflower_seeds": {
+        "possible_infusions": []
+    },
+    "trail_mix": {
+        "possible_infusions": []
+    },
+    "water_chestnut_fritters": {
+        "possible_infusions": []
+    },
+    "crispy_fried_earthshroom": {
+        "possible_infusions": []
+    },
+    "berry_bowl": {
+        "possible_infusions": []
+    },
+    "beet_salad": {
+        "possible_infusions": []
+    },
+    "braised_carrots": {
+        "possible_infusions": []
+    },
+    "broccoli_salad": {
+        "possible_infusions": []
+    },
+    "cucumber_salad": {
+        "possible_infusions": []
+    },
+    "grilled_corn": {
+        "possible_infusions": []
+    },
+    "herb_salad": {
+        "possible_infusions": []
+    },
+    "sauteed_snow_peas": {
+        "possible_infusions": []
+    },
+    "sesame_broccoli": {
+        "possible_infusions": []
+    },
+    "sliced_turnip": {
+        "possible_infusions": []
+    },
+    "buttered_peas": {
+        "possible_infusions": []
+    },
+    "cabbage_slaw": {
+        "possible_infusions": []
+    },
+    "spring_salad": {
+        "possible_infusions": []
+    },
+    "seaweed_salad": {
+        "possible_infusions": []
+    },
+    "summer_salad": {
+        "possible_infusions": []
+    },
+    "turnip_and_cabbage_salad": {
+        "possible_infusions": []
+    },
+    "steamed_broccoli": {
+        "possible_infusions": []
+    },
+    "tide_salad": {
+        "possible_infusions": []
+    },
+    "deep_sea_soup": {
+        "possible_infusions": []
+    },
+    "fish_stew": {
+        "possible_infusions": []
+    },
+    "gazpacho": {
+        "possible_infusions": []
+    },
+    "miners_mushroom_stew": {
+        "possible_infusions": []
+    },
+    "onion_soup": {
+        "possible_infusions": []
+    },
+    "potato_soup": {
+        "possible_infusions": []
+    },
+    "pumpkin_stew": {
+        "possible_infusions": []
+    },
+    "smoked_trout_soup": {
+        "possible_infusions": []
+    },
+    "tomato_soup": {
+        "possible_infusions": []
+    },
+    "vegetable_soup": {
+        "possible_infusions": []
+    },
+    "winter_stew": {
+        "possible_infusions": []
+    },
+    "clam_chowder": {
+        "possible_infusions": []
+    },
+    "baked_potato": {
+        "possible_infusions": []
+    },
+    "baked_sweetroot": {
+        "possible_infusions": []
+    },
+    "braised_burdock": {
+        "possible_infusions": []
+    },
+    "breaded_catfish": {
+        "possible_infusions": []
+    },
+    "crayfish_etouffee": {
+        "possible_infusions": []
+    },
+    "chickpea_curry": {
+        "possible_infusions": []
+    },
+    "cauliflower_curry": {
+        "possible_infusions": []
+    },
+    "deluxe_curry": {
+        "possible_infusions": []
+    },
+    "fried_rice": {
+        "possible_infusions": []
+    },
+    "jam_sandwich": {
+        "possible_infusions": []
+    },
+    "loaded_baked_potato": {
+        "possible_infusions": []
+    },
+    "mackerel_sashimi": {
+        "possible_infusions": []
+    },
+    "mushroom_rice": {
+        "possible_infusions": []
+    },
+    "pan_fried_salmon": {
+        "possible_infusions": []
+    },
+    "pan_fried_snapper": {
+        "possible_infusions": []
+    },
+    "quiche": {
+        "possible_infusions": []
+    },
+    "red_snapper_sushi": {
+        "possible_infusions": []
+    },
+    "riceball": {
+        "possible_infusions": []
+    },
+    "char": {
+        "possible_infusions": []
+    },
+    "roasted_cauliflower": {
+        "possible_infusions": []
+    },
+    "roasted_sweet_potato": {
+        "possible_infusions": []
+    },
+    "rosemary_garlic_noodles": {
+        "possible_infusions": []
+    },
+    "salmon_sashimi": {
+        "possible_infusions": []
+    },
+    "simmered_daikon": {
+        "possible_infusions": []
+    },
+    "sushi_platter": {
+        "possible_infusions": []
+    },
+    "tuna_sashimi": {
+        "possible_infusions": []
+    },
+    "vegetable_quiche": {
+        "possible_infusions": []
+    },
+    "apple_honey_curry": {
+        "possible_infusions": []
+    },
+    "chili_coconut_curry": {
+        "possible_infusions": []
+    },
+    "beet_soup": {
+        "possible_infusions": []
+    },
+    "harvest_plate": {
+        "possible_infusions": []
+    },
+    "seafood_boil": {
+        "possible_infusions": []
+    },
+    "seafood_snow_pea_noodles": {
+        "possible_infusions": []
+    },
+    "spring_galette": {
+        "possible_infusions": []
+    },
+    "veggie_sub_sandwich": {
+        "possible_infusions": []
+    },
+    "cucumber_sandwich": {
+        "possible_infusions": []
+    },
+    "crab_cakes": {
+        "possible_infusions": []
+    },
+    "fish_tacos": {
+        "possible_infusions": []
+    },
+    "cod_with_thyme": {
+        "possible_infusions": []
+    },
+    "incredibly_hot_pot": {
+        "possible_infusions": []
+    },
+    "lobster_roll": {
+        "possible_infusions": []
+    },
+    "mushroom_steak_dinner": {
+        "possible_infusions": []
+    },
+    "perch_risotto": {
+        "possible_infusions": []
+    },
+    "sea_bream_rice": {
+        "possible_infusions": []
+    },
+    "vegetable_pot_pie": {
+        "possible_infusions": []
+    },
+    "pizza": {
+        "possible_infusions": []
+    },
+    "grilled_eel_rice_bowl": {
+        "possible_infusions": []
+    },
+    "sesame_tuna_bowl": {
+        "possible_infusions": []
+    },
+    "spicy_crab_sushi": {
+        "possible_infusions": []
+    },
+    "garlic_bread": {
+        "possible_infusions": []
+    },
+    "turnip_and_potato_gratin": {
+        "possible_infusions": []
+    },
+    "grilled_cheese": {
+        "possible_infusions": []
+    },
+    "fish_skewer": {
+        "possible_infusions": []
+    },
+    "pan_fried_bream": {
+        "possible_infusions": []
+    },
+    "spicy_corn": {
+        "possible_infusions": []
+    },
+    "horseradish_salmon": {
+        "possible_infusions": []
+    },
+    "herb_butter_pasta": {
+        "possible_infusions": []
+    },
+    "omelet": {
+        "possible_infusions": []
+    },
+    "monster_mash": {
+        "possible_infusions": []
+    },
+    "berries_and_cream": {
+        "possible_infusions": []
+    },
+    "candied_lemon_peel": {
+        "possible_infusions": []
+    },
+    "candied_strawberries": {
+        "possible_infusions": []
+    },
+    "caramelized_moon_fruit": {
+        "possible_infusions": []
+    },
+    "cherry_cobbler": {
+        "possible_infusions": []
+    },
+    "cherry_tart": {
+        "possible_infusions": []
+    },
+    "peaches_and_cream": {
+        "possible_infusions": []
+    },
+    "caldosian_chocolate_cake": {
+        "possible_infusions": []
+    },
+    "crystal_berry_pie": {
+        "possible_infusions": []
+    },
+    "sour_lemon_cake": {
+        "possible_infusions": []
+    },
+    "lemon_pie": {
+        "possible_infusions": []
+    },
+    "pomegranate_sorbet": {
+        "possible_infusions": []
+    },
+    "pumpkin_pie": {
+        "possible_infusions": []
+    },
+    "strawberries_and_cream": {
+        "possible_infusions": []
+    },
+    "strawberry_shortcake": {
+        "possible_infusions": []
+    },
+    "wildberry_pie": {
+        "possible_infusions": []
+    },
+    "wildberry_scone": {
+        "possible_infusions": []
+    },
+    "wintergreen_ice_cream": {
+        "possible_infusions": []
+    },
+    "golden_cookies": {
+        "possible_infusions": []
+    },
+    "golden_cheesecake": {
+        "possible_infusions": []
+    },
+    "mont_blanc": {
+        "possible_infusions": []
+    },
+    "coconut_cream_pie": {
+        "possible_infusions": []
+    },
+    "glowberry_cookies": {
+        "possible_infusions": []
+    },
+    "ice_cream_sundae": {
+        "possible_infusions": []
+    },
+    "spell_fruit_parfait": {
+        "possible_infusions": []
+    },
+    "apple_pie": {
+        "possible_infusions": []
+    },
+    "caramel_candy": {
+        "possible_infusions": []
+    },
+    "pudding": {
+        "possible_infusions": []
+    },
+    "sweet_sesame_balls": {
+        "possible_infusions": []
+    },
+    "sweet_potato_pie": {
+        "possible_infusions": []
+    },
+    "moon_fruit_cake": {
+        "possible_infusions": []
+    },
+    "cranberry_orange_scone": {
+        "possible_infusions": []
+    },
+    "monster_cookie": {
+        "possible_infusions": []
+    },
+    "poached_pear": {
+        "possible_infusions": []
+    },
+    "salted_watermelon": {
+        "possible_infusions": []
+    },
+    "apple_juice": {
+        "possible_infusions": []
+    },
+    "cherry_smoothie": {
+        "possible_infusions": []
+    },
+    "coconut_milk": {
+        "possible_infusions": []
+    },
+    "cranberry_juice": {
+        "possible_infusions": []
+    },
+    "grape_juice": {
+        "possible_infusions": []
+    },
+    "green_tea": {
+        "possible_infusions": []
+    },
+    "hot_cocoa": {
+        "possible_infusions": []
+    },
+    "jasmine_tea": {
+        "possible_infusions": []
+    },
+    "latte": {
+        "possible_infusions": []
+    },
+    "lemonade": {
+        "possible_infusions": []
+    },
+    "mocha": {
+        "possible_infusions": []
+    },
+    "orange_juice": {
+        "possible_infusions": []
+    },
+    "pomegranate_juice": {
+        "possible_infusions": []
+    },
+    "roasted_rice_tea": {
+        "possible_infusions": []
+    },
+    "rose_tea": {
+        "possible_infusions": []
+    },
+    "cup_of_tea": {
+        "possible_infusions": []
+    },
+    "iced_coffee": {
+        "possible_infusions": []
+    },
+    "coffee": {
+        "possible_infusions": []
+    },
+    "beer": {
+        "possible_infusions": []
+    },
+    "floral_tea": {
+        "possible_infusions": []
+    },
+    "tulip_cake": {
+        "possible_infusions": []
+    },
+    "lavender_tea": {
+        "possible_infusions": []
+    },
+    "red_wine": {
+        "possible_infusions": []
+    },
+    "white_wine": {
+        "possible_infusions": []
+    },
+    "mushroom_brew": {
+        "possible_infusions": []
+    },
+    "hot_toddy": {
+        "possible_infusions": []
+    },
+    "twice_baked_rations": {
+        "possible_infusions": []
+    },
+    "dragon_horn_mushroom_with_thyme": {
+        "possible_infusions": []
+    },
+    "bucket_brew": {
+        "possible_infusions": []
+    },
+    "mint_gimlet": {
+        "possible_infusions": []
+    },
+    "heavy_mist": {
+        "possible_infusions": []
+    },
+    "humble_pie": {
+        "possible_infusions": []
+    },
+    "confiscated_coffee": {
+        "possible_infusions": []
+    },
+    "mixed_fruit_juice": {
+        "possible_infusions": []
+    },
+    "big_cookie": {
+        "possible_infusions": []
+    },
+    "honey_curry": {
+        "possible_infusions": []
+    },
+    "espresso": {
+        "possible_infusions": []
+    }
+}
