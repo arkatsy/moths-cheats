@@ -18,6 +18,8 @@ const api = {
   setHealth: (saveId, health) => ipcRenderer.invoke(IPC.SET_HEALTH, saveId, health),
   setStamina: (saveId, stamina) => ipcRenderer.invoke(IPC.SET_STAMINA, saveId, stamina),
   setMana: (saveId, mana) => ipcRenderer.invoke(IPC.SET_MANA, saveId, mana),
+  setRewardInventory: (saveId, rewardInventory) =>
+    ipcRenderer.invoke(IPC.SET_REWARD_INVENTORY, saveId, rewardInventory),
   setBirthday: (saveId, birthday) => ipcRenderer.invoke(IPC.SET_BIRTHDAY, saveId, birthday)
 }
 

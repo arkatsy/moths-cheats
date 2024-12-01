@@ -4,6 +4,7 @@ import { electronApp } from "@electron-toolkit/utils"
 import icon from "../../resources/icon.png?asset"
 import { isDev, unpackSavesToTemp } from "./utils"
 import { channels } from "./ipc"
+import installExtension, { REACT_DEVELOPER_TOOLS } from "electron-devtools-installer"
 
 // Electron runs first and then, when is ready it runs the callback we passed.
 app.whenReady().then(async () => {
@@ -49,7 +50,17 @@ app.whenReady().then(async () => {
   }
 
   if (isDev) {
-    mainWindow.webContents.openDevTools()
+    mainWindow.webContents.on("before-input-event", (_, input) => {
+      if (input.type === "keyDown" && input.key === "F12") {
+        mainWindow.webContents.isDevToolsOpened()
+          ? mainWindow.webContents.closeDevTools()
+          : mainWindow.webContents.openDevTools({ mode: "right" })
+      }
+    })
+
+    installExtension(REACT_DEVELOPER_TOOLS)
+      .then((name) => console.log(`Added Extension:  ${name}`))
+      .catch((err) => console.log("An error occurred: ", err))
   }
 })
 

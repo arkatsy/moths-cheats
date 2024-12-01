@@ -1,22 +1,26 @@
-import { Box, Card, Flex, Image, Text } from "@chakra-ui/react"
+import { Box, Card, Flex, HStack, Image, Text } from "@chakra-ui/react"
+
+import { displayCalendarTime, displayClockTime, displayPlaytime, displayWeather } from "src/utils"
+
+import iconBlizzard from "src/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_blizzard.png"
+import iconLeaves from "src/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_leaves.png"
+import iconPetals from "src/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_petals.png"
+import iconRain from "src/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_rain.png"
+// import iconRainy from '@/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_rainy.png'
+import iconSnow from "src/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_snow.png"
+import iconStorm from "src/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_storm.png"
+import iconSunny from "src/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_sunny.png"
+// import iconThunderstorm from '@/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_thunderstorm.png'
 
 import {
-  displayCalendarTime,
-  displayClockTime,
-  displayPlaytime,
-  displayWeather
-} from "@renderer/utils"
-import { memo } from "react"
-
-import iconBlizzard from "@renderer/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_blizzard.png"
-import iconLeaves from "@renderer/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_leaves.png"
-import iconPetals from "@renderer/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_petals.png"
-import iconRain from "@renderer/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_rain.png"
-// import iconRainy from '@renderer/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_rainy.png'
-import iconSnow from "@renderer/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_snow.png"
-import iconStorm from "@renderer/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_storm.png"
-import iconSunny from "@renderer/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_sunny.png"
-// import iconThunderstorm from '@renderer/assets/sprites/weather-icons/spr_ui_hud_info_backplate_weather_icon_thunderstorm.png'
+  TesseraeIcon,
+  EssenceIcon,
+  RenownIcon,
+  NameIcon,
+  GenderIcon,
+  FarmIcon,
+  ClockIcon
+} from "src/components/custom/icons"
 
 const weatherIcons = [
   {
@@ -51,12 +55,6 @@ const weatherIcons = [
 
 export default function SaveCard({ save, onClick }) {
   const { header, autosave, id } = save
-
-  const data = {
-    Gold: Intl.NumberFormat().format(header.stats.gold),
-    Essence: Intl.NumberFormat().format(header.stats.essence),
-    Renown: Intl.NumberFormat().format(header.stats.renown)
-  }
 
   function handleClick() {
     onClick && onClick(id)
@@ -106,6 +104,7 @@ export default function SaveCard({ save, onClick }) {
       <Card.Header display="flex" flexDir="row" justifyContent="space-between" pos="relative">
         <Flex flexDir="column">
           <Text textStyle="xl" display="flex" gap={2} alignItems="center">
+            <NameIcon w="30px" h="30px" />
             {header.name} | {displayCalendarTime(header.calendar_time)}
             <Image
               display="inline"
@@ -117,8 +116,6 @@ export default function SaveCard({ save, onClick }) {
                 ]
               }
             />
-            -&nbsp;
-            {displayClockTime(header.clock_time)} &nbsp;
           </Text>
           <Text opacity={0.8} as="span">
             {autosave && "autosave"}
@@ -126,7 +123,8 @@ export default function SaveCard({ save, onClick }) {
         </Flex>
 
         <Box pos="relative">
-          <Text textStyle="xl" textAlign="end" ml={2}>
+          <Text textStyle="xl" textAlign="end" ml={2} display="flex" w="full" gap="2">
+            <FarmIcon w="30px" h="30px" />
             {header.farm_name}
           </Text>
           <Text pos="absolute" textStyle="xl" opacity={0.9} right="0">
@@ -136,14 +134,22 @@ export default function SaveCard({ save, onClick }) {
       </Card.Header>
       <Card.Body>
         <Flex flexDir="column" gap={1}>
-          {Object.keys(data).map((key, idx) => (
-            <Text key={idx}>
-              {key}:{" "}
-              <Box as="span" opacity="0.9">
-                {data[key]}
-              </Box>
-            </Text>
-          ))}
+          <HStack>
+            <ClockIcon w="28px" h="28px" />
+            {displayClockTime(header.clock_time)}
+          </HStack>
+          <HStack>
+            <TesseraeIcon w="30px" h="30px" />
+            {header.stats.gold}
+          </HStack>
+          <HStack>
+            <EssenceIcon w="30px" h="30px" />
+            {header.stats.essence}
+          </HStack>
+          <HStack>
+            <RenownIcon w="27px" h="27px" ml="0.5" pos="relative" top="-0.5" />
+            {header.stats.renown}
+          </HStack>
         </Flex>
         <Box pos="absolute" right={6} bottom={7}>
           <Text fontSize="sm" opacity="0.8">

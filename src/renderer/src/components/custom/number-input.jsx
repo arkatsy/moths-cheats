@@ -1,8 +1,17 @@
-import { NumberInputRoot, NumberInputField } from "@components/ui/number-input"
-import { Field } from "@components/ui/field"
-import { InputGroup } from "@components/ui/input-group"
+import { NumberInputRoot, NumberInputField } from "src/components/primitives/number-input"
+import { InputGroup } from "src/components/primitives/input-group"
+import { Field } from "src/components/primitives/field"
+import { memo } from "react"
 
-export default function NumberInput({ value, onValueChange, step, min, label, helper, icon }) {
+export const NumberInput = memo(function NumberInput({
+  value,
+  onValueChange,
+  step,
+  min,
+  label,
+  helper,
+  icon
+}) {
   return (
     <Field label={label} helperText={helper || ""}>
       <NumberInputRoot
@@ -18,4 +27,4 @@ export default function NumberInput({ value, onValueChange, step, min, label, he
       </NumberInputRoot>
     </Field>
   )
-}
+})
