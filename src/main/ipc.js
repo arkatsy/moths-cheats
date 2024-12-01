@@ -420,10 +420,7 @@ function handleSetRewardInventory(e, saveId, inventory) {
     return false
   }
 
-  // TODO: validate inventory
-
   const { jsonPaths } = saveInfo
-
   return updateJsonValue(jsonPaths.player, "renown_reward_inventory", inventory)
 }
 
@@ -431,9 +428,7 @@ async function handleSetBirthday(e, saveId, birthday) {
   console.log(`[handleSetBirthday:${saveId}]: Updating birthday to ${birthday}`)
 
   if (!isNumber(birthday)) {
-    console.log(
-      `[handleSetBirthday:${saveId}]: birthday is not a number ${birthday}, won't update`
-    )
+    console.log(`[handleSetBirthday:${saveId}]: birthday is not a number ${birthday}, won't update`)
     return false
   }
 
