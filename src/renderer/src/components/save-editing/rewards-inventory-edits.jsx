@@ -1,4 +1,4 @@
-import { memo, useCallback, useContext, useMemo, useState } from "react"
+import { memo, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react"
 import { EditorContext } from "src/components/save-editing"
 import {
   Box,
@@ -78,12 +78,18 @@ export default function RewardsInventoryEdits() {
   })
 
   const setItemQuantity = useCallback((slotId, quantity) => {
-    if (quantity > 99) {
+    if (quantity > 999) {
       return
     }
 
     const slot = inventory.getSlot(slotId)
     if (slot.getItemId() === "") {
+      return
+    }
+
+    if (quantity === 0) {
+      inventory.updateItemQuantity(slotId, 1)
+      setEdits((prev) => ({ ...prev, reward_inventory: inventory.getInventory() }))
       return
     }
 
@@ -254,10 +260,10 @@ const RewardInventorySlot = memo(function RewardInventorySlot({
             disabled={!activeItemId}
           />
           <NumberInput
+            selectTextOnFocus
             label="Quantity"
             placeholder="quantity"
             value={activeItemQuantity}
-            // min={1}
             max={999}
             step={1}
             onValueChange={handleChangeItemQuantity}
