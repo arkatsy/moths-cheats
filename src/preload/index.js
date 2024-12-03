@@ -23,7 +23,9 @@ const api = {
   setBirthday: (saveId, birthday) => ipcRenderer.invoke(IPC.SET_BIRTHDAY, saveId, birthday),
   setInventory: (saveId, inventory) => ipcRenderer.invoke(IPC.SET_INVENTORY, saveId, inventory),
   setMaximumMinesLevel: (saveId, maxMinesLevel) =>
-    ipcRenderer.invoke(IPC.SET_MAXIMUM_MINES_LEVEL, saveId, maxMinesLevel)
+    ipcRenderer.invoke(IPC.SET_MAXIMUM_MINES_LEVEL, saveId, maxMinesLevel),
+  setSceneHistory: (saveId, sceneHistory) =>
+    ipcRenderer.invoke(IPC.SET_SCENE_HISTORY, saveId, sceneHistory)
 }
 
 contextBridge.exposeInMainWorld("api", api)

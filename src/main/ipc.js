@@ -36,7 +36,8 @@ export const IPC = {
   SET_REWARD_INVENTORY: "set/reward-inventory",
   SET_BIRTHDAY: "set/birthday",
   SET_INVENTORY: "set/inventory",
-  SET_MAXIMUM_MINES_LEVEL: "set/maximum-mines-level"
+  SET_MAXIMUM_MINES_LEVEL: "set/maximum-mines-level",
+  SET_SCENE_HISTORY: "set/scene-history"
 }
 
 export const channels = {
@@ -58,7 +59,8 @@ export const channels = {
   [IPC.SET_REWARD_INVENTORY]: handleSetRewardInventory,
   [IPC.SET_BIRTHDAY]: handleSetBirthday,
   [IPC.SET_INVENTORY]: handleSetInventory,
-  [IPC.SET_MAXIMUM_MINES_LEVEL]: handleSetMaximumMinesLevel
+  [IPC.SET_MAXIMUM_MINES_LEVEL]: handleSetMaximumMinesLevel,
+  [IPC.SET_SCENE_HISTORY]: handleSetSceneHistory
 }
 
 async function handleMeasureUnpacking(e, amount) {
@@ -180,7 +182,8 @@ async function handleGetSaveData(e, saveId) {
     inventory: playerData.inventory,
     birthdaySeason: translateCalendarTime(playerData.birthday)[1],
     birthdayDay: translateCalendarTime(playerData.birthday)[2],
-    maximumMinesLevel: gamedataData.maximum_mines_level
+    maximumMinesLevel: gamedataData.maximum_mines_level,
+    sceneHistory: gamedataData.scene_history
   }
 }
 
@@ -486,5 +489,19 @@ async function handleSetMaximumMinesLevel(e, saveId, maxMinesLevel) {
 
   const { jsonPaths } = saveInfo
   await updateJsonValue(jsonPaths.gamedata, "maximum_mines_level", maxMinesLevel)
+  return true
+}
+
+async function handleSetSceneHistory(e, saveId, sceneHistory) {
+  console.log(`[handleSetSceneHistory:${saveId}]: Updating scene history`)
+
+  const saveInfo = unpackedSavesPathsCache.get(saveId)
+  if (!saveInfo) {
+    console.log(`couldn't find save with id ${saveId} in cache`)
+    return false
+  }
+
+  const { jsonPaths } = saveInfo
+  await updateJsonValue(jsonPaths.gamedata, "scene_history", sceneHistory)
   return true
 }

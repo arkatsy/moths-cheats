@@ -32,6 +32,7 @@ export function useSaveMutation(saveId) {
       )
       await window.api.setInventory(saveId, edits.inventory)
       await window.api.setMaximumMinesLevel(saveId, edits.maximumMinesLevel)
+      await window.api.setSceneHistory(saveId, edits.sceneHistory)
 
       await window.api.updateSave(saveId)
     },

@@ -26,8 +26,10 @@ const files = fs
   .map((file) => path.join(unpackedDir, file))
 
 const playerJson = files.find((file) => file.endsWith("player.json"))
+const gamedataJson = files.find((file) => file.endsWith("gamedata.json"))
 
 const playerData = JSON.parse(fs.readFileSync(playerJson, "utf-8"))
+const gamedataData = JSON.parse(fs.readFileSync(gamedataJson), "utf-8")
 
 const idsJson = JSON.stringify(
   {
@@ -52,7 +54,8 @@ const idsJson = JSON.stringify(
         }
       },
       recipes: playerData.recipe_unlocks
-    }
+    },
+    scene_history: gamedataData.scene_history
   },
   null,
   2

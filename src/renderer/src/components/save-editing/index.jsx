@@ -111,8 +111,8 @@ function SaveEditor({ saveData, saveId }) {
           <GeneralEdits />
           <CalendarEdits />
           <StatsEdits />
-          <MiscEdits />
           <InventoryEdits />
+          <MiscEdits />
         </Stack>
       </Box>
     </EditorContext.Provider>

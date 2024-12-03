@@ -1828,9 +1828,27 @@
           "unicorn_horn",
           "pink_bow"
         ],
-        "pig": ["unicorn_horn", "flower_crown", "pink_bow", "cowboy_hat", "crown"],
-        "horse": ["unicorn_horn", "flower_crown", "pink_bow", "cowboy_hat", "crown"],
-        "rabbit": ["pink_bow", "daisy_clips", "halo", "heart_clips", "top_hat"],
+        "pig": [
+          "unicorn_horn",
+          "flower_crown",
+          "pink_bow",
+          "cowboy_hat",
+          "crown"
+        ],
+        "horse": [
+          "unicorn_horn",
+          "flower_crown",
+          "pink_bow",
+          "cowboy_hat",
+          "crown"
+        ],
+        "rabbit": [
+          "pink_bow",
+          "daisy_clips",
+          "halo",
+          "heart_clips",
+          "top_hat"
+        ],
         "alpaca": [
           "beaded_necklace",
           "flower_crown",
@@ -1839,9 +1857,29 @@
           "scarf",
           "spiked_collar"
         ],
-        "capybara": ["bowler_hat", "yuzu", "leaf", "baseball_cap", "bow"],
-        "duck": ["bonnet", "pink_bow", "ruffled_collar", "sun_hat", "black_bowtie"],
-        "cow": ["pink_bow", "beret", "cheese_hat", "cowboy_hat", "crown", "halo", "pink_sunglasses"]
+        "capybara": [
+          "bowler_hat",
+          "yuzu",
+          "leaf",
+          "baseball_cap",
+          "bow"
+        ],
+        "duck": [
+          "bonnet",
+          "pink_bow",
+          "ruffled_collar",
+          "sun_hat",
+          "black_bowtie"
+        ],
+        "cow": [
+          "pink_bow",
+          "beret",
+          "cheese_hat",
+          "cowboy_hat",
+          "crown",
+          "halo",
+          "pink_sunglasses"
+        ]
       },
       "player": {
         "seen": [
@@ -3021,5 +3059,81 @@
       "worn_well",
       "worn_window"
     ]
-  }
+  },
+  "scene_history": [
+    "somethings_bugging_me",
+    "crafting",
+    "repair_the_mill_pt_1",
+    "repair_the_mill_pt_2",
+    "jos_cooking_class",
+    "the_unusual_tree_pt_1",
+    "the_unusual_tree_pt_2",
+    "tea_with_hayden",
+    "hayden_two_hearts",
+    "juniper_two_hearts",
+    "celine_two_hearts",
+    "adeline_two_hearts",
+    "eiland_two_hearts",
+    "march_two_hearts",
+    "reina_two_hearts",
+    "valen_two_hearts",
+    "ryis_two_hearts",
+    "adeline_four_hearts",
+    "celine_four_hearts",
+    "march_four_hearts",
+    "reina_four_hearts",
+    "eiland_four_hearts",
+    "valen_four_hearts",
+    "day_zero",
+    "unlocking_the_mines_pt_1",
+    "unlocking_the_mines_pt_2",
+    "stinky_stamina_potion",
+    "translating_the_water_tablet",
+    "repair_the_bridge_pt_1",
+    "repair_the_bridge_pt_2",
+    "water_seal",
+    "break_water_seal",
+    "post_water_seal",
+    "earth_seal",
+    "break_earth_seal",
+    "dying",
+    "post_earth_seal",
+    "fire_seal",
+    "juniper_four_hearts",
+    "translating_the_earth_tablet",
+    "shooting_star_morning",
+    "shooting_star_march",
+    "replenishing_mistrias_food_reserves_1",
+    "balor_four_hearts",
+    "repair_the_general_store_pt_1",
+    "repair_the_general_store_pt_2",
+    "crafting_tutorial",
+    "repair_the_summit_stairs",
+    "repair_haydens_barn_pt_1",
+    "repair_haydens_barn_pt_2",
+    "find_the_weathervane_setup",
+    "find_the_weathervane",
+    "prologue",
+    "ryis_four_hearts",
+    "replenishing_mistrias_food_reserves_2_pt_1",
+    "replenishing_mistrias_food_reserves_2_pt_2",
+    "repair_the_beach_bridge_pt_1",
+    "repair_the_beach_bridge_pt_2",
+    "repair_the_inn_pt_1",
+    "repair_the_inn_pt_2",
+    "hayden_four_hearts",
+    "eiland_six_hearts",
+    "balor_six_hearts",
+    "juniper_six_hearts",
+    "reveal_mistmare",
+    "march_six_hearts",
+    "balor_two_hearts",
+    "full_restore",
+    "adeline_quest_board",
+    "farm_introduction",
+    "do_a_bro_a_favor",
+    "bathhouse",
+    "museum_donation_wanted",
+    "cop_some_ore"
+  ]
 }
