@@ -35,8 +35,7 @@ export const IPC = {
   SET_MANA: "set/mana",
   SET_REWARD_INVENTORY: "set/reward-inventory",
   SET_BIRTHDAY: "set/birthday",
-  SET_INVENTORY: "set/inventory",
-  SET_MAX_MINES_LEVEL: "set/max-mines-level"
+  SET_INVENTORY: "set/inventory"
 }
 
 export const channels = {
@@ -57,8 +56,7 @@ export const channels = {
   [IPC.SET_MANA]: handleSetMana,
   [IPC.SET_REWARD_INVENTORY]: handleSetRewardInventory,
   [IPC.SET_BIRTHDAY]: handleSetBirthday,
-  [IPC.SET_INVENTORY]: handleSetInventory,
-  [IPC.SET_MAX_MINES_LEVEL]: handleSetMaxMinesLevel
+  [IPC.SET_INVENTORY]: handleSetInventory
 }
 
 async function handleMeasureUnpacking(e, amount) {
@@ -472,19 +470,5 @@ async function handleSetInventory(e, saveId, inventory) {
 
   const { jsonPaths } = saveInfo
   await updateJsonValue(jsonPaths.player, "inventory", inventory)
-  return true
-}
-
-async function handleSetMaxMinesLevel(e, saveId, maxMinesLevel) {
-  console.log(`[handleSetMaximumMinesLevel:${saveId}]: Updating maximum mines level`)
-
-  const saveInfo = unpackedSavesPathsCache.get(saveId)
-  if (!saveInfo) {
-    console.log(`couldn't find save with id ${saveId} in cache`)
-    return false
-  }
-
-  const { jsonPaths } = saveInfo
-  await updateJsonValue(jsonPaths.gamedata, "maximum_mines_level", maxMinesLevel)
   return true
 }
