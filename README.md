@@ -5,7 +5,7 @@
 
 Please note that while I'm doing my best to ensure you don't ruin your saves, using this tool comes with some risk. **Make sure to backup your saves first**.
 Your saves are under `C:\Users\yourusername\AppData\Local\FieldsOfMistria\saves`. 
-To backup your saves, simply copy your saves folder somewhere on your computer. A backup feature is planned for the tool, but I haven’t implemented it yet.
+To backup your saves, simply copy your saves folder somewhere on your computer!
 
 ‼️**Please don't skip the backup step—I can't stress this enough**‼️
 
@@ -13,15 +13,13 @@ While HoM lets you do some fun stuff you couldn't otherwise do, please be mindfu
 
 Additionally, some items may be inherently problematic. If you encounter an item that breaks your save without any infusion or stacking, please let me know!
 
-You can contact me through the issues / discussions here on Github or dm me on Discord: _arkatsy_
+You can contact me through the issues / discussions here on Github or dm me on Discord: <b>arkatsy</b>
 
-## Contributors
+## Contributions
 
 <a href="https://github.com/arkatsy/hacks-of-mistria/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=arkatsy/hacks-of-mistria" />
 </a>
-
-Made with [contrib.rocks](https://contrib.rocks).
 
 ## 
 
