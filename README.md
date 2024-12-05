@@ -9,18 +9,15 @@ To backup your saves, simply copy your saves folder somewhere on your computer!
 
 ‼️**Please don't skip the backup step—I can't stress this enough**‼️
 
+The app will automatically detect your local saves and list them in the exact order as they show in game. After editing a save and clicking apply, your changes will be shown on the top (both in game and on the app).
+
 While HoM lets you do some fun stuff you couldn't otherwise do, please be mindful, especially when editing the inventory. Adding items with infusions or creating stacks that wouldn't be possible in the game normally can break your save. If this happens and you can't load your save, just edit your problematic items or remove them.
 
-Additionally, some items may be inherently problematic. If you encounter an item that breaks your save without any infusion or stacking, please let me know!
-
+Additionally, some items may be inherently problematic. If you encounter an item that breaks your save without any infusion or stacking, please let me know!<br />
 You can contact me through the issues / discussions here on Github or dm me on Discord: <b>arkatsy</b>
 
-## Contributions
+## Contributors
 
 <a href="https://github.com/arkatsy/hacks-of-mistria/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=arkatsy/hacks-of-mistria" />
 </a>
-
-## 
-
-This project utilizes the [vaultc](https://github.com/NPC-Studio/vaultc) tool for unpacking / packing the saves.
