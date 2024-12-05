@@ -1,6 +1,6 @@
 {
   "name": "hacks-of-mistria",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "A tool to edit your save files in Fields of Mistria",
   "main": "./out/main/index.js",
   "author": "arkatsy",
@@ -8,7 +8,7 @@
     "format": "prettier --write .",
     "dev": "set NODE_ENV=development && electron-vite dev",
     "measure-unpacking": "node ./scripts/measure-unpacking.js",
-    "extract-ids": "node ./scripts/extract-ids.js",
+    "update-ids": "node ./scripts/update-ids.js",
     "postinstall": "electron-builder install-app-deps",
     "build:unpack": "npm run build && electron-builder --dir",
     "build": "set NODE_ENV=production && electron-vite build && electron-builder --win"
