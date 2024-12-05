@@ -1,7 +1,7 @@
 ![from-bg2-cropped](https://github.com/user-attachments/assets/a31e0434-3cb2-4350-b8d6-a22b17ae14af)
 # Hacks of Mistria
 
-**Hacks of Mistria** (HoM) is an editor tool for your saves in Fields of Mistria. With HoM, you can modify things such as the date, your stats, add items to your save file, and more! You can download the latest version in the releases.
+**Hacks of Mistria** (HoM) is an editor tool for your saves in Fields of Mistria. With HoM, you can modify things such as the date, your stats, add items to your save file, and more! You can download the latest version in the [releases](https://github.com/arkatsy/hacks-of-mistria/releases).
 
 Please note that while I'm doing my best to ensure you don't ruin your saves, using this tool comes with some risk. **Make sure to backup your saves first**.
 Your saves are under `C:\Users\yourusername\AppData\Local\FieldsOfMistria\saves`. 
